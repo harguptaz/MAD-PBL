@@ -1,0 +1,490 @@
+{
+  "ai-1778259446911-694": {
+    "title": "Grilled Chicken and Tomato",
+    "readyInMinutes": 20,
+    "servings": 2,
+    "summary": "A simple and flavorful dish featuring grilled chicken and fresh tomatoes.",
+    "extendedIngredients": [
+      {
+        "original": "1 lb chicken",
+        "name": "chicken"
+      },
+      {
+        "original": "2 medium tomatoes",
+        "name": "tomato"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat grill to medium-high heat."
+          },
+          {
+            "number": 2,
+            "step": "Season chicken with salt and pepper."
+          },
+          {
+            "number": 3,
+            "step": "Grill chicken for 5-6 minutes per side."
+          },
+          {
+            "number": 4,
+            "step": "Grill tomatoes for 2-3 minutes per side."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259446911-694",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259446911-896": {
+    "title": "Chicken and Tomato Stir-Fry",
+    "readyInMinutes": 15,
+    "servings": 2,
+    "summary": "A quick and easy stir-fry recipe featuring chicken and tomatoes.",
+    "extendedIngredients": [
+      {
+        "original": "1 lb chicken",
+        "name": "chicken"
+      },
+      {
+        "original": "2 medium tomatoes",
+        "name": "tomato"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat oil in a pan over medium-high heat."
+          },
+          {
+            "number": 2,
+            "step": "Add chicken and cook until browned."
+          },
+          {
+            "number": 3,
+            "step": "Add tomatoes and cook until they start to soften."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259446911-896",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259446911-472": {
+    "title": "Chicken and Tomato Salad",
+    "readyInMinutes": 10,
+    "servings": 2,
+    "summary": "A fresh and healthy salad recipe featuring chicken and tomatoes.",
+    "extendedIngredients": [
+      {
+        "original": "1 lb chicken",
+        "name": "chicken"
+      },
+      {
+        "original": "2 medium tomatoes",
+        "name": "tomato"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Chop chicken and tomatoes into bite-sized pieces."
+          },
+          {
+            "number": 2,
+            "step": "Combine chicken and tomatoes in a bowl."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259446911-472",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259537943-241": {
+    "title": "Creamy Tomato Soup",
+    "readyInMinutes": 20,
+    "servings": 2,
+    "summary": "A rich and creamy soup made with fresh tomatoes and onions.",
+    "extendedIngredients": [
+      {
+        "original": "2 tomatoes",
+        "name": "tomato"
+      },
+      {
+        "original": "1 onion",
+        "name": "onion"
+      },
+      {
+        "original": "1/2 cup cream",
+        "name": "cream"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Chop the onion and sauté in a pan."
+          },
+          {
+            "number": 2,
+            "step": "Add chopped tomatoes and cook until soft."
+          },
+          {
+            "number": 3,
+            "step": "Blend the mixture with cream and serve."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259537943-241",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259537943-419": {
+    "title": "Roasted Potato and Ginger",
+    "readyInMinutes": 40,
+    "servings": 2,
+    "summary": "A simple and flavorful side dish made with roasted potatoes and ginger.",
+    "extendedIngredients": [
+      {
+        "original": "2 potatoes",
+        "name": "potato"
+      },
+      {
+        "original": "1-inch ginger",
+        "name": "ginger"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat the oven to 400°F."
+          },
+          {
+            "number": 2,
+            "step": "Chop the potatoes and slice the ginger."
+          },
+          {
+            "number": 3,
+            "step": "Toss with oil and roast in the oven for 30 minutes."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259537943-419",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259537943-230": {
+    "title": "Garlic and Lemon Potato",
+    "readyInMinutes": 25,
+    "servings": 2,
+    "summary": "A flavorful and aromatic side dish made with garlic, lemon, and potatoes.",
+    "extendedIngredients": [
+      {
+        "original": "2 potatoes",
+        "name": "potato"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 lemon",
+        "name": "lemon"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Boil the potatoes until tender."
+          },
+          {
+            "number": 2,
+            "step": "Mince the garlic and mix with lemon juice."
+          },
+          {
+            "number": 3,
+            "step": "Toss the cooked potatoes with garlic and lemon mixture."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259537943-230",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259592500-177": {
+    "title": "Grilled Tomato",
+    "readyInMinutes": 15,
+    "servings": 1,
+    "summary": "A simple grilled tomato recipe.",
+    "extendedIngredients": [
+      {
+        "original": "1 tomato",
+        "name": "tomato"
+      },
+      {
+        "original": "1 tablespoon oil",
+        "name": "oil"
+      },
+      {
+        "original": "salt and pepper to taste",
+        "name": "salt and pepper"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat a grill or grill pan to medium heat."
+          },
+          {
+            "number": 2,
+            "step": "Brush the tomato with oil and season with salt and pepper."
+          },
+          {
+            "number": 3,
+            "step": "Grill the tomato for 2-3 minutes per side, until tender."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259592500-177",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259592500-742": {
+    "title": "Sauteed Onion and Tomato",
+    "readyInMinutes": 20,
+    "servings": 2,
+    "summary": "A quick and easy saute of onion and tomato.",
+    "extendedIngredients": [
+      {
+        "original": "1 onion",
+        "name": "onion"
+      },
+      {
+        "original": "1 tomato",
+        "name": "tomato"
+      },
+      {
+        "original": "2 tablespoons oil",
+        "name": "oil"
+      },
+      {
+        "original": "salt and pepper to taste",
+        "name": "salt and pepper"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat oil in a pan over medium heat."
+          },
+          {
+            "number": 2,
+            "step": "Add the onion and cook until translucent, about 5 minutes."
+          },
+          {
+            "number": 3,
+            "step": "Add the tomato and cook for an additional 2-3 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Season with salt and pepper to taste."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259592500-742",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778259592500-159": {
+    "title": "Tomato and Onion Salad",
+    "readyInMinutes": 10,
+    "servings": 2,
+    "summary": "A simple salad of tomato and onion.",
+    "extendedIngredients": [
+      {
+        "original": "1 onion",
+        "name": "onion"
+      },
+      {
+        "original": "1 tomato",
+        "name": "tomato"
+      },
+      {
+        "original": "1 tablespoon oil",
+        "name": "oil"
+      },
+      {
+        "original": "salt and pepper to taste",
+        "name": "salt and pepper"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Chop the onion and tomato into small pieces."
+          },
+          {
+            "number": 2,
+            "step": "In a bowl, combine the chopped onion and tomato."
+          },
+          {
+            "number": 3,
+            "step": "Drizzle with oil and season with salt and pepper to taste."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778259592500-159",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778312559464-124": {
+    "title": "Fried Egg Sandwich",
+    "readyInMinutes": 10,
+    "servings": 1,
+    "summary": "A simple egg sandwich made with fried eggs and bread.",
+    "extendedIngredients": [
+      {
+        "original": "2 eggs",
+        "name": "eggs"
+      },
+      {
+        "original": "2 slices bread",
+        "name": "bread"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Crack the eggs into a bowl and whisk them together."
+          },
+          {
+            "number": 2,
+            "step": "Heat a non-stick pan over medium heat and add the eggs."
+          },
+          {
+            "number": 3,
+            "step": "Cook the eggs until they are fried to your desired doneness."
+          },
+          {
+            "number": 4,
+            "step": "Toast the bread."
+          },
+          {
+            "number": 5,
+            "step": "Assemble the sandwich by placing the fried eggs between the toasted bread slices."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778312559464-124",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778312559464-228": {
+    "title": "Egg in the Hole",
+    "readyInMinutes": 10,
+    "servings": 1,
+    "summary": "A simple breakfast dish made with an egg cooked in a hole cut out of a slice of bread.",
+    "extendedIngredients": [
+      {
+        "original": "1 egg",
+        "name": "eggs"
+      },
+      {
+        "original": "1 slice bread",
+        "name": "bread"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Cut a hole in the center of the bread slice."
+          },
+          {
+            "number": 2,
+            "step": "Heat a non-stick pan over medium heat."
+          },
+          {
+            "number": 3,
+            "step": "Add the bread slice to the pan and crack the egg into the hole."
+          },
+          {
+            "number": 4,
+            "step": "Cook the egg until the whites are set and the yolks are cooked to your desired doneness."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778312559464-228",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  },
+  "ai-1778312559464-265": {
+    "title": "Bread and Egg Toast",
+    "readyInMinutes": 5,
+    "servings": 1,
+    "summary": "A simple snack made with toasted bread and a fried or poached egg on top.",
+    "extendedIngredients": [
+      {
+        "original": "1 egg",
+        "name": "eggs"
+      },
+      {
+        "original": "1 slice bread",
+        "name": "bread"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Toast the bread."
+          },
+          {
+            "number": 2,
+            "step": "Fry or poach the egg."
+          },
+          {
+            "number": 3,
+            "step": "Assemble the snack by placing the egg on top of the toasted bread."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1778312559464-265",
+    "isCustom": true,
+    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+  }
+}

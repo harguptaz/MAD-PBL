@@ -1,0 +1,32 @@
+{
+  "1777859120237": [
+    {
+      "id": 654959,
+      "title": "Test Pasta Recipe",
+      "image": "test.jpg",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "savedAt": "2026-05-04T01:45:21.326Z"
+    }
+  ],
+  "1777857997061": [
+    {
+      "id": 638389,
+      "title": "Chicken Tikka Masala Indian",
+      "image": "https://img.spoonacular.com/recipes/638389-556x370.jpg",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "savedAt": "2026-05-04T01:49:10.911Z"
+    }
+  ],
+  "1778238108248": [
+    {
+      "id": "ai-1778259592500-177",
+      "title": "Grilled Tomato",
+      "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe",
+      "readyInMinutes": 15,
+      "servings": 1,
+      "savedAt": "2026-05-08T17:00:01.534Z"
+    }
+  ]
+}

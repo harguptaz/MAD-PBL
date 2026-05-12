@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1777831791966",
+    "username": "testuser",
+    "password": "$2b$10$xFKUv4U9rAFaXtQiEaMKpe4EdwzrIB11gaquonURi6S1fWUL1kS8W",
+    "createdAt": "2026-05-03T18:09:51.966Z"
+  },
+  {
+    "id": "1777857997061",
+    "username": "testuser123",
+    "password": "$2b$10$KKt3PLvvp4JA0RlELNy6WuH6BWGy7ZWY5m.mRiWIpUy.GDrLL.hqS",
+    "createdAt": "2026-05-04T01:26:37.061Z"
+  },
+  {
+    "id": "1777859120237",
+    "username": "api_tester",
+    "password": "$2b$10$ReT89KvYRNGR7kUIB6NO0uaar3jiuipWDb8ejI2FZlkdxex9FhVfe",
+    "createdAt": "2026-05-04T01:45:20.237Z"
+  },
+  {
+    "id": "1778238108248",
+    "username": "test-user-1",
+    "password": "$2b$10$JX2MKAS2vXNFip7mc6T0xuF9fNUrSUHFO91lAY4Eu9pJKBSOp6L.a",
+    "createdAt": "2026-05-08T11:01:48.248Z"
+  },
+  {
+    "id": "1778247167325",
+    "username": "debuguser",
+    "password": "$2b$10$hwTJkH3BP/F5hKJB4XQdPuV9jypOkyr6DUH2.0qwaehjftdvOIhYa",
+    "createdAt": "2026-05-08T13:32:47.325Z"
+  }
+]
