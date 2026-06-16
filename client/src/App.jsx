@@ -12,6 +12,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import CookNow from './pages/CookNow';
 import MealPlanner from './pages/MealPlanner';
+import Heritage from './pages/Heritage';
 import PageTransition from './components/PageTransition';
 
 function AppRoutes() {
@@ -70,6 +71,14 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <PageTransition><MealPlanner /></PageTransition>
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/heritage"
+        element={
+          <ProtectedRoute>
+            <PageTransition><Heritage /></PageTransition>
           </ProtectedRoute>
         }
       />

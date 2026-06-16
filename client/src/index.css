@@ -250,6 +250,53 @@ img { max-width: 100%; display: block; }
   display: flex; align-items: center; gap: 4px;
 }
 
+/* Heritage Map Feature */
+.india-states-grid {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.states-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.state-grid-item {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem;
+  color: var(--text-color);
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 80px;
+}
+
+.state-grid-item:hover {
+  box-shadow: 0 8px 15px rgba(255, 107, 107, 0.2);
+  color: white;
+}
+
+.map-tooltip {
+  position: absolute;
+  bottom: 20px; right: 12px;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(8px);
+  border: none; cursor: pointer; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem; transition: all 0.25s ease;
+}
+
 .recipe-card-save {
   position: absolute; top: 12px; right: 12px;
   width: 36px; height: 36px; border-radius: 50%;
@@ -884,4 +931,152 @@ img { max-width: 100%; display: block; }
   width: 1.1em;
   height: 1.1em;
   margin-right: 0;
+}
+
+/* ==========================================================================
+   HERITAGE RECIPES FEATURE
+   ========================================================================== */
+
+.heritage-page {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.heritage-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 900px) {
+  .heritage-content {
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.india-map-container {
+  background: var(--surface-color);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.map-tooltip {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--text-color);
+  color: var(--bg-color);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow-md);
+  pointer-events: none;
+}
+
+.state-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5rem;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.state-list-item {
+  padding: 0.75rem;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  color: var(--text-color);
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.state-list-item:hover, .state-list-item.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.state-results {
+  background: var(--surface-color);
+  border-radius: var(--border-radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.state-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.badge-ai {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.badge-auth {
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.heritage-recipes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heritage-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.historical-context {
+  background: linear-gradient(to right, rgba(245, 158, 11, 0.05), transparent);
+  border-left: 4px solid var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+}
+
+.historical-context h4 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.historical-context p {
+  color: var(--text-color-muted);
+  line-height: 1.6;
+  font-size: 1.05rem;
 }

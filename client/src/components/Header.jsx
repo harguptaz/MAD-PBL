@@ -41,6 +41,12 @@ export default function Header() {
             >
               📅 Meal Plan
             </Link>
+            <Link
+              to="/heritage"
+              className={`nav-link ${isActive('/heritage') ? 'active' : ''}`}
+            >
+              🌍 Heritage
+            </Link>
           </>
         )}
         <ThemeToggle />

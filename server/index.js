@@ -7,6 +7,7 @@ const authRoutes = require('./routes/auth');
 const recipeRoutes = require('./routes/recipes');
 const userRoutes = require('./routes/user');
 const aiRoutes = require('./routes/ai');
+const heritageRoutes = require('./routes/heritage');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -27,6 +28,10 @@ app.use('/api/auth', authRoutes);
 app.use('/api/recipes', recipeRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/api/heritage', heritageRoutes);
+
+// ── Serve static images ──────────────────────────────
+app.use('/api/images', express.static(path.join(__dirname, 'images')));
 
 // ── Health Check ─────────────────────────────────────
 app.get('/api/health', (req, res) => {

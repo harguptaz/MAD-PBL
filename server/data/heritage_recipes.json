@@ -1,0 +1,536 @@
+{
+  "Rajasthan": [
+    {
+      "id": "rj-1",
+      "title": "Daal-Baati",
+      "state": "Rajasthan",
+      "historicalContext": "A classic Rajasthani dish with deep historical roots. Originally crafted for the harsh desert conditions, the hard wheat rolls (Baati) could be baked over camel dung or wood fires and lasted for days, while the lentil soup (Daal) provided essential nutrition for traveling warriors and nomads.",
+      "readyInMinutes": 90,
+      "servings": 4,
+      "image": "https://media.istockphoto.com/id/2259196294/photo/complete-dal-baati-churma-platter.webp?a=1&b=1&s=612x612&w=0&k=20&c=4yJBkJlvWpj_TRUxls6EmoZsurwbuOOd7a6N3raTXmU=",
+      "extendedIngredients": [
+        {
+          "original": "2 cups whole wheat flour",
+          "name": "whole wheat flour"
+        },
+        {
+          "original": "1/2 cup ghee",
+          "name": "ghee"
+        },
+        {
+          "original": "1 cup mixed lentils (moong, masoor, chana)",
+          "name": "mixed lentils"
+        },
+        {
+          "original": "1 tsp turmeric",
+          "name": "turmeric"
+        },
+        {
+          "original": "1 tsp cumin seeds",
+          "name": "cumin seeds"
+        },
+        {
+          "original": "Salt to taste",
+          "name": "salt"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Knead the wheat flour with ghee, salt, and water into a stiff dough."
+            },
+            {
+              "number": 2,
+              "step": "Shape the dough into round balls (Baatis)."
+            },
+            {
+              "number": 3,
+              "step": "Bake the Baatis in a preheated oven at 180°C for 30-40 minutes until golden brown."
+            },
+            {
+              "number": 4,
+              "step": "Boil the mixed lentils with turmeric and salt until tender."
+            },
+            {
+              "number": 5,
+              "step": "In a pan, heat ghee, add cumin seeds, and pour over the boiled daal (tadka)."
+            },
+            {
+              "number": 6,
+              "step": "Crush the Baati slightly, pour ghee and Daal over it, and serve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rj-2",
+      "title": "Besan and Buttermilk Curry-Rice (Kadhi Chawal)",
+      "state": "Rajasthan",
+      "historicalContext": "In the arid regions of Rajasthan, where fresh vegetables were scarce, buttermilk (chhaach) and gram flour (besan) became the foundation of daily meals. Kadhi, cooked slowly, offered a cooling, deeply satisfying contrast to the dry, hot climate.",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&q=80",
+      "extendedIngredients": [
+        {
+          "original": "2 cups sour buttermilk",
+          "name": "sour buttermilk"
+        },
+        {
+          "original": "3 tbsp gram flour (besan)",
+          "name": "gram flour"
+        },
+        {
+          "original": "1 tsp mustard seeds",
+          "name": "mustard seeds"
+        },
+        {
+          "original": "1/2 tsp fenugreek seeds",
+          "name": "fenugreek seeds"
+        },
+        {
+          "original": "1 tsp turmeric powder",
+          "name": "turmeric powder"
+        },
+        {
+          "original": "2 cups cooked basmati rice",
+          "name": "cooked basmati rice"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Whisk together buttermilk, besan, turmeric, and salt until there are no lumps."
+            },
+            {
+              "number": 2,
+              "step": "Heat oil in a pan, add mustard seeds, fenugreek seeds, and dried red chilies."
+            },
+            {
+              "number": 3,
+              "step": "Pour the buttermilk mixture into the pan and stir continuously until it comes to a boil."
+            },
+            {
+              "number": 4,
+              "step": "Simmer on low heat for 20 minutes to cook the besan thoroughly."
+            },
+            {
+              "number": 5,
+              "step": "Serve hot over steamed basmati rice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rj-3",
+      "title": "Leswe Ka Aachar (Gonda Pickle)",
+      "state": "Rajasthan",
+      "historicalContext": "Lesua or Gonda (glue berry) is a wild berry found in Rajasthan. Pickling was a vital preservation technique in the desert, allowing families to consume vital nutrients and flavors year-round despite the lack of refrigeration or fresh crops.",
+      "readyInMinutes": 40,
+      "servings": 20,
+      "image": "https://images.unsplash.com/photo-1596541584288-06ccb4bba8da?w=600&q=80",
+      "extendedIngredients": [
+        {
+          "original": "500g fresh lesua (glue berries)",
+          "name": "lesua"
+        },
+        {
+          "original": "100g raw mango, grated",
+          "name": "raw mango"
+        },
+        {
+          "original": "3 tbsp mustard seeds, coarsely ground",
+          "name": "mustard seeds"
+        },
+        {
+          "original": "2 tbsp fennel seeds",
+          "name": "fennel seeds"
+        },
+        {
+          "original": "1 cup mustard oil",
+          "name": "mustard oil"
+        },
+        {
+          "original": "2 tbsp red chili powder",
+          "name": "red chili powder"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Wash and boil the lesua berries in water for 10 minutes, then drain and dry completely."
+            },
+            {
+              "number": 2,
+              "step": "Remove the sticky seeds from the boiled berries."
+            },
+            {
+              "number": 3,
+              "step": "Mix grated raw mango, mustard seeds, fennel seeds, red chili powder, and salt in a bowl."
+            },
+            {
+              "number": 4,
+              "step": "Stuff the lesua with the spice mix or simply mix them together."
+            },
+            {
+              "number": 5,
+              "step": "Heat mustard oil to smoking point, let it cool completely, and pour over the pickle."
+            },
+            {
+              "number": 6,
+              "step": "Store in an airtight glass jar for a few days before consuming."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rj-4",
+      "title": "Malai Ghewar",
+      "state": "Rajasthan",
+      "historicalContext": "Ghewar is a quintessential Rajasthani sweet, traditionally prepared during the monsoon festival of Teej. Its honeycomb-like structure requires immense culinary skill, representing the royal opulence and festive spirit of the Rajputana era.",
+      "readyInMinutes": 120,
+      "servings": 6,
+      "image": "https://images.unsplash.com/photo-1624371414361-e670eadb0ceb?w=600&q=80",
+      "extendedIngredients": [
+        {
+          "original": "2 cups all-purpose flour (maida)",
+          "name": "all-purpose flour"
+        },
+        {
+          "original": "1/2 cup solid ghee",
+          "name": "ghee"
+        },
+        {
+          "original": "1/2 cup milk",
+          "name": "milk"
+        },
+        {
+          "original": "4 cups water (ice cold)",
+          "name": "ice cold water"
+        },
+        {
+          "original": "Ghee for deep frying",
+          "name": "ghee for frying"
+        },
+        {
+          "original": "1 cup sugar syrup (chashni)",
+          "name": "sugar syrup"
+        },
+        {
+          "original": "1 cup sweetened condensed milk or malai for topping",
+          "name": "malai"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Rub solid ghee with an ice cube vigorously until it becomes white and fluffy."
+            },
+            {
+              "number": 2,
+              "step": "Gradually add milk, flour, and ice-cold water to make a thin, smooth, lump-free batter."
+            },
+            {
+              "number": 3,
+              "step": "Heat a large quantity of ghee in a deep, heavy-bottomed vessel."
+            },
+            {
+              "number": 4,
+              "step": "Pour a ladle of cold batter into the center of the hot ghee from a height. Allow the foam to settle, then pour more to create a honeycomb structure."
+            },
+            {
+              "number": 5,
+              "step": "Fry until golden brown and crispy, then carefully remove using a wooden skewer."
+            },
+            {
+              "number": 6,
+              "step": "Dip the Ghewar in sugar syrup, drain excess, and spread a thick layer of Malai on top before serving."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Bihar": [
+    {
+      "id": "br-1",
+      "title": "Litti Chokha",
+      "state": "Bihar",
+      "historicalContext": "Litti Chokha was a staple for peasants and soldiers in ancient Magadha due to its long shelf life and minimal water requirement. Roasted over cow dung cakes, the sattu (roasted gram flour) stuffing provides immense sustained energy.",
+      "readyInMinutes": 60,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1626082895617-2c6bfcc544b6?w=600&q=80",
+      "extendedIngredients": [
+        {
+          "original": "2 cups whole wheat flour",
+          "name": "whole wheat flour"
+        },
+        {
+          "original": "1 cup sattu (roasted gram flour)",
+          "name": "sattu"
+        },
+        {
+          "original": "2 large eggplants (baingan)",
+          "name": "eggplants"
+        },
+        {
+          "original": "2 tomatoes",
+          "name": "tomatoes"
+        },
+        {
+          "original": "2 boiled potatoes",
+          "name": "potatoes"
+        },
+        {
+          "original": "2 tbsp mustard oil",
+          "name": "mustard oil"
+        },
+        {
+          "original": "Chopped garlic, ginger, green chilies, coriander",
+          "name": "aromatics"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Knead wheat flour with a pinch of salt and water into a firm dough."
+            },
+            {
+              "number": 2,
+              "step": "Mix sattu with mustard oil, chopped aromatics, pickle masala, and salt to prepare the stuffing."
+            },
+            {
+              "number": 3,
+              "step": "Stuff the sattu mixture into dough balls (Littis) and roast them over an open flame or bake until cooked and slightly cracked."
+            },
+            {
+              "number": 4,
+              "step": "Roast eggplants and tomatoes directly over a flame until the skin is charred."
+            },
+            {
+              "number": 5,
+              "step": "Peel and mash the roasted vegetables with boiled potatoes, raw mustard oil, chopped onions, and chilies to make Chokha."
+            },
+            {
+              "number": 6,
+              "step": "Dip the hot Littis in pure ghee and serve with Chokha."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Kashmir": [
+    {
+      "id": "jk-1",
+      "title": "Rogan Josh",
+      "state": "Kashmir",
+      "historicalContext": "Brought to Kashmir by the Mughals, Rogan Josh is a signature dish of the Wazwan (a multi-course meal). 'Rogan' means clarified butter or oil, and 'Josh' means passion or heat. It's renowned for its deep red hue derived from Mawal (cockscomb) flowers and Kashmiri chilies.",
+      "readyInMinutes": 90,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80",
+      "extendedIngredients": [
+        {
+          "original": "500g mutton on the bone",
+          "name": "mutton"
+        },
+        {
+          "original": "3 tbsp mustard oil",
+          "name": "mustard oil"
+        },
+        {
+          "original": "1 cup yogurt, whisked",
+          "name": "yogurt"
+        },
+        {
+          "original": "2 tbsp Kashmiri red chili powder",
+          "name": "Kashmiri chili powder"
+        },
+        {
+          "original": "1 tsp fennel powder (saunf)",
+          "name": "fennel powder"
+        },
+        {
+          "original": "1 tsp dry ginger powder (sonth)",
+          "name": "dry ginger powder"
+        },
+        {
+          "original": "Asafoetida (hing) and whole spices (cloves, cardamom, cinnamon)",
+          "name": "spices"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Heat mustard oil in a heavy-bottomed pan until it smokes, then let it cool slightly."
+            },
+            {
+              "number": 2,
+              "step": "Add whole spices and a pinch of asafoetida, followed by the mutton pieces."
+            },
+            {
+              "number": 3,
+              "step": "Fry the mutton on medium heat until browned."
+            },
+            {
+              "number": 4,
+              "step": "In a bowl, mix whisked yogurt with Kashmiri chili powder, fennel powder, and dry ginger powder."
+            },
+            {
+              "number": 5,
+              "step": "Lower the heat, stir the yogurt mixture into the meat continuously to prevent curdling."
+            },
+            {
+              "number": 6,
+              "step": "Add water, cover, and simmer slowly until the meat is tender and the oil separates on top."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Odisha": [
+    {
+      "id": "od-1",
+      "title": "Dalma",
+      "state": "Odisha",
+      "historicalContext": "Deeply tied to the Jagannath Temple in Puri, Dalma is a nutritious, no-onion, no-garlic dish. It symbolizes the simplicity and purity of Odia temple cuisine, combining lentils and a variety of local indigenous vegetables cooked slowly together.",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1548943487-a2e4b43b584e?w=600&q=80",
+      "extendedIngredients": [
+        {
+          "original": "1 cup roasted split pigeon peas (toor dal)",
+          "name": "toor dal"
+        },
+        {
+          "original": "2 cups mixed vegetables (pumpkin, raw banana, eggplant, yam)",
+          "name": "mixed vegetables"
+        },
+        {
+          "original": "1 tsp turmeric powder",
+          "name": "turmeric powder"
+        },
+        {
+          "original": "1 tsp roasted cumin and chili powder (jeera-lanka gunda)",
+          "name": "roasted cumin chili powder"
+        },
+        {
+          "original": "1 tbsp ghee",
+          "name": "ghee"
+        },
+        {
+          "original": "1/2 tsp panch phutana (five-spice blend)",
+          "name": "panch phutana"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Dry roast the toor dal slightly, wash it, and put it in a pressure cooker with water, salt, and turmeric."
+            },
+            {
+              "number": 2,
+              "step": "Add all the chopped vegetables to the cooker and cook until everything is tender but not mushy."
+            },
+            {
+              "number": 3,
+              "step": "In a small pan, heat ghee and temper with panch phutana and whole dry red chilies."
+            },
+            {
+              "number": 4,
+              "step": "Pour the tempering over the boiled dal and vegetables."
+            },
+            {
+              "number": 5,
+              "step": "Sprinkle freshly roasted cumin and dry red chili powder generously on top before serving."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Gujarat": [
+    {
+      "id": "gj-1",
+      "title": "Undhiyu",
+      "state": "Gujarat",
+      "historicalContext": "A seasonal winter dish from South Gujarat. 'Undhu' means 'upside down', referring to the traditional method of cooking the vegetables underground in earthen pots fired from above, capturing the earthy essence of fresh winter produce.",
+      "readyInMinutes": 90,
+      "servings": 6,
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+      "extendedIngredients": [
+        {
+          "original": "2 cups Surti papdi (flat green beans)",
+          "name": "surti papdi"
+        },
+        {
+          "original": "1 cup purple yam (kand), cubed",
+          "name": "purple yam"
+        },
+        {
+          "original": "1 cup sweet potato, cubed",
+          "name": "sweet potato"
+        },
+        {
+          "original": "8 small eggplants (brinjals), slit",
+          "name": "eggplants"
+        },
+        {
+          "original": "1 cup muthiya (fenugreek dumplings)",
+          "name": "muthiya"
+        },
+        {
+          "original": "1 cup fresh grated coconut and green garlic mixture",
+          "name": "coconut garlic masala"
+        }
+      ],
+      "analyzedInstructions": [
+        {
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare muthiyas by mixing besan, fenugreek leaves, and spices, then deep fry them."
+            },
+            {
+              "number": 2,
+              "step": "Stuff the slit eggplants and potatoes with the coconut, green garlic, and spice mixture."
+            },
+            {
+              "number": 3,
+              "step": "In a large heavy-bottomed vessel, heat oil and add carom seeds (ajwain)."
+            },
+            {
+              "number": 4,
+              "step": "Layer the vegetables starting with papdi, then yam, stuffed eggplants, and muthiyas."
+            },
+            {
+              "number": 5,
+              "step": "Add a little water, cover with a tight lid, and simmer on low heat for 40-50 minutes until all vegetables are tender."
+            },
+            {
+              "number": 6,
+              "step": "Garnish with fresh coriander and serve hot with puris."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

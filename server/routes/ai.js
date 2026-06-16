@@ -40,22 +40,23 @@ router.post('/suggest-recipes', authenticateToken, async (req, res) => {
     return res.status(500).json({ error: 'Groq API key is not configured on the server.' });
   }
 
-  const prompt = `I have these ingredients: ${ingredients.trim()}. Suggest 3 recipes I can make. 
+  const prompt = `I have these ingredients: ${ingredients.trim()}. Suggest 3 REAL, well-known recipes I can make. Do NOT invent or make up recipes; use actual culinary recipes.
+For each recipe, provide full, detailed information including precise measurements for ingredients and comprehensive step-by-step cooking instructions.
 IMPORTANT: You must respond ONLY with a valid JSON array of recipe objects matching this exact schema:
 [
   {
     "title": "Recipe Name",
     "readyInMinutes": 30,
     "servings": 2,
-    "summary": "Short description of the recipe...",
+    "summary": "A detailed description of the recipe, its origin, and flavor profile...",
     "extendedIngredients": [
-      { "original": "2 cups pasta", "name": "pasta" }
+      { "original": "2 cups cooked penne pasta", "name": "penne pasta" }
     ],
     "analyzedInstructions": [
       {
         "steps": [
-          { "number": 1, "step": "Boil water." },
-          { "number": 2, "step": "Add pasta." }
+          { "number": 1, "step": "Bring a large pot of salted water to a boil. Add the pasta and cook according to package instructions until al dente." },
+          { "number": 2, "step": "Drain the pasta and set aside." }
         ]
       }
     ]
@@ -104,7 +105,7 @@ Do NOT wrap the JSON in markdown code blocks like \`\`\`json. Return ONLY the ra
         ...r,
         id: 'ai-' + Date.now() + '-' + Math.floor(Math.random() * 1000),
         isCustom: true,
-        image: 'https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe'
+        image: '/api/images/cover.jpg'
       }));
       saveCustomRecipes(parsedRecipes);
       

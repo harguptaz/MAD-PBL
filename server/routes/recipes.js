@@ -1,5 +1,7 @@
 const express = require('express');
 const fetch = require('node-fetch');
+const fs = require('fs');
+const path = require('path');
 
 const router = express.Router();
 const API_BASE = 'https://api.spoonacular.com';
@@ -7,7 +9,7 @@ const API_BASE = 'https://api.spoonacular.com';
 /**
  * GET /api/recipes/search?query=...&number=12
  * Proxies to Spoonacular complexSearch endpoint.
- * API key is injected server-side — never exposed to client.
+ * Has an AI Fallback if Spoonacular returns 0 results.
  */
 router.get('/search', async (req, res) => {
   try {
@@ -37,6 +39,107 @@ router.get('/search', async (req, res) => {
       });
     }
 
+    // AI Fallback Logic
+    if (data.results && data.results.length === 0) {
+      console.log(`No results from Spoonacular for "${query}". Triggering AI Fallback...`);
+      const groqApiKey = process.env.GROQ_API_KEY;
+
+      if (groqApiKey && groqApiKey !== 'your_groq_api_key_here') {
+        const prompt = `Provide 3 highly detailed, authentic recipes for "${query}".
+CRITICAL INSTRUCTION: The instructions must be highly detailed, comprehensive, and exhaustive. Break the recipe down into many small, distinct steps (at least 8-12 steps). Explain EXACTLY how to prepare, cook, and serve the dish in full detail.
+IMPORTANT: You must respond ONLY with a valid JSON array containing exactly 3 recipe objects matching this exact schema:
+[
+  {
+    "title": "Recipe Name",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "image": "/api/images/cover.jpg",
+    "extendedIngredients": [
+      { "original": "2 cups ingredient", "name": "ingredient" }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          { "number": 1, "step": "Very detailed step 1..." },
+          { "number": 2, "step": "Very detailed step 2..." }
+        ]
+      }
+    ]
+  }
+]
+Do NOT wrap the JSON in markdown code blocks. Return ONLY the raw JSON array.`;
+
+        const groqRes = await fetch(
+          'https://api.groq.com/openai/v1/chat/completions',
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${groqApiKey}`
+            },
+            body: JSON.stringify({
+              model: 'llama-3.3-70b-versatile',
+              messages: [{ role: 'user', content: prompt }],
+              temperature: 0.7,
+              max_tokens: 4000,
+            }),
+          }
+        );
+
+        if (groqRes.ok) {
+          const aiData = await groqRes.json();
+          const text = aiData?.choices?.[0]?.message?.content;
+
+          if (text) {
+            try {
+              const cleanedText = text.replace(/```json/gi, '').replace(/```/g, '').trim();
+              const parsedRecipes = JSON.parse(cleanedText);
+
+              const CUSTOM_RECIPES_FILE = path.join(__dirname, '..', 'data', 'custom_recipes.json');
+              let customData = {};
+              if (fs.existsSync(CUSTOM_RECIPES_FILE)) {
+                customData = JSON.parse(fs.readFileSync(CUSTOM_RECIPES_FILE, 'utf-8'));
+              }
+
+              const formattedResults = parsedRecipes.map((r, index) => {
+                const aiId = 'ai-search-' + Date.now() + '-' + index;
+                const fullRecipe = {
+                  ...r,
+                  id: aiId,
+                  source: 'ai-fallback'
+                };
+
+                // Save to custom_recipes.json so /:id endpoint can fetch the details later
+                customData[aiId] = fullRecipe;
+
+                // Return Spoonacular-style summary for the search results page
+                return {
+                  id: aiId,
+                  title: fullRecipe.title,
+                  image: fullRecipe.image,
+                  readyInMinutes: fullRecipe.readyInMinutes,
+                  servings: fullRecipe.servings
+                };
+              });
+
+              fs.writeFileSync(CUSTOM_RECIPES_FILE, JSON.stringify(customData, null, 2));
+
+              // Return the generated recipes pretending they came from Spoonacular
+              return res.json({
+                results: formattedResults,
+                offset: 0,
+                number: formattedResults.length,
+                totalResults: formattedResults.length
+              });
+
+            } catch (parseErr) {
+              console.error('Failed to parse AI search fallback JSON:', text);
+            }
+          }
+        }
+      }
+    }
+
     res.json(data);
   } catch (err) {
     console.error('Recipe search error:', err);
@@ -58,7 +161,7 @@ router.get('/:id', async (req, res) => {
       const fs = require('fs');
       const path = require('path');
       const CUSTOM_RECIPES_FILE = path.join(__dirname, '..', 'data', 'custom_recipes.json');
-      
+
       if (fs.existsSync(CUSTOM_RECIPES_FILE)) {
         const customRecipes = JSON.parse(fs.readFileSync(CUSTOM_RECIPES_FILE, 'utf-8'));
         if (customRecipes[id]) {
