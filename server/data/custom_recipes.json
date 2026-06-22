@@ -9281,5 +9281,98 @@
     "id": "ai-1782103834307-172",
     "isCustom": true,
     "image": "/api/images/cover.jpg"
+  },
+  "ai-meal-1782106393263-924": {
+    "title": "Oatmeal with Banana and Almond Milk",
+    "readyInMinutes": 30,
+    "servings": 1,
+    "summary": "A hearty and nutritious breakfast recipe, Oatmeal with Banana and Almond Milk is a delicious and comforting dish that combines the natural sweetness of bananas with the creaminess of almond milk and the warmth of oatmeal. This recipe is perfect for a chilly morning and can be customized to suit individual tastes by adding various toppings such as nuts, seeds, or spices.",
+    "extendedIngredients": [
+      {
+        "original": "1/2 cup rolled oats",
+        "name": "rolled oats"
+      },
+      {
+        "original": "1 large banana",
+        "name": "banana"
+      },
+      {
+        "original": "1 cup almond milk",
+        "name": "almond milk"
+      },
+      {
+        "original": "1 tsp honey",
+        "name": "honey"
+      },
+      {
+        "original": "1/4 tsp salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/2 tsp vanilla extract",
+        "name": "vanilla extract"
+      },
+      {
+        "original": "1 tbsp chopped walnuts (optional)",
+        "name": "walnuts"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a medium saucepan, bring the almond milk to a simmer over medium heat, being careful not to let it boil."
+          },
+          {
+            "number": 2,
+            "step": "Add the salt and vanilla extract to the almond milk and stir to combine."
+          },
+          {
+            "number": 3,
+            "step": "In a large bowl, combine the rolled oats and a pinch of salt. Stir to combine."
+          },
+          {
+            "number": 4,
+            "step": "Gradually add the warm almond milk to the oats, stirring constantly to prevent lumps from forming."
+          },
+          {
+            "number": 5,
+            "step": "Reduce the heat to low and cook the oats for about 5-7 minutes, stirring occasionally, until they have absorbed most of the liquid and have a creamy consistency."
+          },
+          {
+            "number": 6,
+            "step": "While the oats are cooking, slice the banana into thin rounds."
+          },
+          {
+            "number": 7,
+            "step": "Once the oats are cooked, remove the saucepan from the heat and stir in the honey until it is fully dissolved."
+          },
+          {
+            "number": 8,
+            "step": "Add the sliced banana to the oats and stir to combine."
+          },
+          {
+            "number": 9,
+            "step": "Transfer the oatmeal to a serving bowl and top with additional sliced banana, if desired."
+          },
+          {
+            "number": 10,
+            "step": "If using walnuts, sprinkle them over the top of the oatmeal for added crunch and flavor."
+          },
+          {
+            "number": 11,
+            "step": "Serve the oatmeal immediately, while it is still warm and creamy."
+          },
+          {
+            "number": 12,
+            "step": "Enjoy your delicious and nutritious Oatmeal with Banana and Almond Milk, perfect for a healthy and satisfying breakfast."
+          }
+        ]
+      }
+    ],
+    "id": "ai-meal-1782106393263-924",
+    "isCustom": true,
+    "image": "/api/images/cover.jpg"
   }
 }

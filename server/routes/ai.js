@@ -266,4 +266,99 @@ DO NOT include any markdown formatting like \`\`\`json or \`\`\`. Just return th
   }
 });
 
+/**
+ * POST /api/ai/meal-recipe
+ * Body: { mealName: "...", ingredients: [{...}], calories: 500 }
+ * Generates a full detailed recipe for a single meal.
+ */
+router.post('/meal-recipe', authenticateToken, async (req, res) => {
+  const { mealName, ingredients = [], calories } = req.body;
+
+  if (!mealName || !mealName.trim()) {
+    return res.status(400).json({ error: 'Meal name is required.' });
+  }
+
+  const apiKey = process.env.GROQ_API_KEY;
+  if (!apiKey || apiKey === 'your_groq_api_key_here') {
+    return res.status(500).json({ error: 'Groq API key is not configured on the server.' });
+  }
+
+  const ingredientsStr = ingredients.map(i => i.original || i.name || i).join(', ');
+
+  const prompt = `Provide a complete recipe for "${mealName}" targeting approximately ${calories || 'a standard amount of'} calories.
+Use the following ingredients as the base: ${ingredientsStr || 'standard ingredients for this dish'}. You may allow common pantry staples as additions.
+CRITICAL INSTRUCTION: The instructions must require at minimum eight to twelve detailed, numbered cooking steps that explain preparation, cooking technique, and plating clearly.
+
+IMPORTANT: You must respond ONLY with a single valid JSON object matching this exact schema:
+{
+  "title": "${mealName}",
+  "readyInMinutes": 30,
+  "servings": 2,
+  "summary": "A detailed description of the recipe, its origin, and flavor profile...",
+  "extendedIngredients": [
+    { "original": "2 cups cooked penne pasta", "name": "penne pasta" }
+  ],
+  "analyzedInstructions": [
+    {
+      "steps": [
+        { "number": 1, "step": "Bring a large pot of salted water to a boil..." },
+        { "number": 2, "step": "..." }
+      ]
+    }
+  ]
+}
+Do NOT wrap the JSON in markdown code blocks like \`\`\`json. Return ONLY the raw JSON object.`;
+
+  try {
+    const groqRes = await fetch(
+      'https://api.groq.com/openai/v1/chat/completions',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${apiKey}`
+        },
+        body: JSON.stringify({
+          model: 'llama-3.3-70b-versatile',
+          messages: [{ role: 'user', content: prompt }],
+          temperature: 0.5,
+          max_tokens: 2000,
+        }),
+      }
+    );
+
+    if (!groqRes.ok) {
+      const errData = await groqRes.json().catch(() => ({}));
+      return res.status(502).json({ error: errData?.error?.message || 'Failed to reach Groq API.' });
+    }
+
+    const data = await groqRes.json();
+    const text = data?.choices?.[0]?.message?.content;
+
+    if (!text) {
+      return res.status(502).json({ error: 'No response received from Groq.' });
+    }
+
+    let parsedRecipe;
+    try {
+      const cleanedText = text.replace(/```json/gi, '').replace(/```/g, '').trim();
+      parsedRecipe = JSON.parse(cleanedText);
+      
+      parsedRecipe.id = 'ai-meal-' + Date.now() + '-' + Math.floor(Math.random() * 1000);
+      parsedRecipe.isCustom = true;
+      parsedRecipe.image = '/api/images/cover.jpg';
+      
+      saveCustomRecipes([parsedRecipe]);
+    } catch (parseErr) {
+      console.error('Failed to parse AI JSON:', text);
+      return res.status(502).json({ error: 'Failed to parse AI response into a recipe.' });
+    }
+
+    res.json(parsedRecipe);
+  } catch (err) {
+    console.error('AI meal recipe route error:', err);
+    res.status(500).json({ error: 'Server error while contacting Groq API.' });
+  }
+});
+
 module.exports = router;

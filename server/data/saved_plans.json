@@ -1,0 +1,439 @@
+{
+  "1778238108248": [
+    {
+      "id": "plan-1782106380554-y57e4l",
+      "savedAt": "2026-06-22T05:33:00.554Z",
+      "calories": 3000,
+      "preferences": [
+        "vegetarian"
+      ],
+      "healthConditions": [
+        "heart-healthy"
+      ],
+      "avoidances": "",
+      "days": [
+        {
+          "day": "Monday",
+          "breakfast": {
+            "name": "Oatmeal with Banana and Almond Milk",
+            "calories": 550,
+            "ingredients": [
+              {
+                "original": "rolled oats"
+              },
+              {
+                "original": "banana"
+              },
+              {
+                "original": "almond milk"
+              },
+              {
+                "original": "honey"
+              }
+            ],
+            "generatedRecipeId": "ai-meal-1782106393263-924"
+          },
+          "lunch": {
+            "name": "Vegetable Wrap",
+            "calories": 700,
+            "ingredients": [
+              {
+                "original": "whole wheat wrap"
+              },
+              {
+                "original": "hummus"
+              },
+              {
+                "original": "cucumber"
+              },
+              {
+                "original": "bell peppers"
+              },
+              {
+                "original": "carrots"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "dinner": {
+            "name": "Quinoa and Black Bean Bowl",
+            "calories": 950,
+            "ingredients": [
+              {
+                "original": "quinoa"
+              },
+              {
+                "original": "black beans"
+              },
+              {
+                "original": "roasted vegetables"
+              },
+              {
+                "original": "avocado"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "totalCalories": 2200
+        },
+        {
+          "day": "Tuesday",
+          "breakfast": {
+            "name": "Greek Yogurt Parfait",
+            "calories": 500,
+            "ingredients": [
+              {
+                "original": "Greek yogurt"
+              },
+              {
+                "original": "granola"
+              },
+              {
+                "original": "berries"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "lunch": {
+            "name": "Lentil Soup",
+            "calories": 750,
+            "ingredients": [
+              {
+                "original": "lentils"
+              },
+              {
+                "original": "vegetable broth"
+              },
+              {
+                "original": "onions"
+              },
+              {
+                "original": "carrots"
+              },
+              {
+                "original": "celery"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "dinner": {
+            "name": "Grilled Vegetable Skewers with Brown Rice",
+            "calories": 900,
+            "ingredients": [
+              {
+                "original": "mixed vegetables"
+              },
+              {
+                "original": "brown rice"
+              },
+              {
+                "original": "olive oil"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "totalCalories": 2150
+        },
+        {
+          "day": "Wednesday",
+          "breakfast": {
+            "name": "Smoothie Bowl",
+            "calories": 600,
+            "ingredients": [
+              {
+                "original": "frozen berries"
+              },
+              {
+                "original": "banana"
+              },
+              {
+                "original": "almond milk"
+              },
+              {
+                "original": "spinach"
+              },
+              {
+                "original": "chia seeds"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "lunch": {
+            "name": "Grilled Cheese Sandwich with Tomato Soup",
+            "calories": 800,
+            "ingredients": [
+              {
+                "original": "whole wheat bread"
+              },
+              {
+                "original": "vegetarian cheese"
+              },
+              {
+                "original": "tomato soup"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "dinner": {
+            "name": "Stuffed Bell Peppers",
+            "calories": 1000,
+            "ingredients": [
+              {
+                "original": "bell peppers"
+              },
+              {
+                "original": "quinoa"
+              },
+              {
+                "original": "black beans"
+              },
+              {
+                "original": "tomatoes"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "totalCalories": 2400
+        },
+        {
+          "day": "Thursday",
+          "breakfast": {
+            "name": "Avocado Toast",
+            "calories": 500,
+            "ingredients": [
+              {
+                "original": "whole wheat bread"
+              },
+              {
+                "original": "avocado"
+              },
+              {
+                "original": "salt"
+              },
+              {
+                "original": "pepper"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "lunch": {
+            "name": "Chickpea Salad",
+            "calories": 700,
+            "ingredients": [
+              {
+                "original": "chickpeas"
+              },
+              {
+                "original": "mixed greens"
+              },
+              {
+                "original": "cucumber"
+              },
+              {
+                "original": "tomatoes"
+              },
+              {
+                "original": "balsamic vinaigrette"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "dinner": {
+            "name": "Vegetable Curry with Brown Rice",
+            "calories": 1050,
+            "ingredients": [
+              {
+                "original": "mixed vegetables"
+              },
+              {
+                "original": "coconut milk"
+              },
+              {
+                "original": "curry powder"
+              },
+              {
+                "original": "brown rice"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "totalCalories": 2250
+        },
+        {
+          "day": "Friday",
+          "breakfast": {
+            "name": "Tofu Scramble",
+            "calories": 550,
+            "ingredients": [
+              {
+                "original": "tofu"
+              },
+              {
+                "original": "spinach"
+              },
+              {
+                "original": "bell peppers"
+              },
+              {
+                "original": "onions"
+              },
+              {
+                "original": "whole wheat toast"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "lunch": {
+            "name": "Quinoa Salad Bowl",
+            "calories": 800,
+            "ingredients": [
+              {
+                "original": "quinoa"
+              },
+              {
+                "original": "mixed vegetables"
+              },
+              {
+                "original": "lemon juice"
+              },
+              {
+                "original": "olive oil"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "dinner": {
+            "name": "Grilled Portobello Mushrooms with Roasted Vegetables",
+            "calories": 950,
+            "ingredients": [
+              {
+                "original": "portobello mushrooms"
+              },
+              {
+                "original": "mixed vegetables"
+              },
+              {
+                "original": "olive oil"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "totalCalories": 2300
+        },
+        {
+          "day": "Saturday",
+          "breakfast": {
+            "name": "Whole Grain Waffles with Fresh Berries",
+            "calories": 500,
+            "ingredients": [
+              {
+                "original": "whole grain waffles"
+              },
+              {
+                "original": "fresh berries"
+              },
+              {
+                "original": "yogurt"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "lunch": {
+            "name": "Lentil and Vegetable Stew",
+            "calories": 850,
+            "ingredients": [
+              {
+                "original": "lentils"
+              },
+              {
+                "original": "mixed vegetables"
+              },
+              {
+                "original": "vegetable broth"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "dinner": {
+            "name": "Stuffed Acorn Squash",
+            "calories": 1000,
+            "ingredients": [
+              {
+                "original": "acorn squash"
+              },
+              {
+                "original": "quinoa"
+              },
+              {
+                "original": "black beans"
+              },
+              {
+                "original": "tomatoes"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "totalCalories": 2350
+        },
+        {
+          "day": "Sunday",
+          "breakfast": {
+            "name": "Breakfast Burrito",
+            "calories": 600,
+            "ingredients": [
+              {
+                "original": "whole wheat tortilla"
+              },
+              {
+                "original": "scrambled tofu"
+              },
+              {
+                "original": "black beans"
+              },
+              {
+                "original": "avocado"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "lunch": {
+            "name": "Grilled Vegetable and Hummus Wrap",
+            "calories": 750,
+            "ingredients": [
+              {
+                "original": "whole wheat wrap"
+              },
+              {
+                "original": "hummus"
+              },
+              {
+                "original": "mixed vegetables"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "dinner": {
+            "name": "Vegetable and Bean Chili",
+            "calories": 1050,
+            "ingredients": [
+              {
+                "original": "mixed vegetables"
+              },
+              {
+                "original": "kidney beans"
+              },
+              {
+                "original": "black beans"
+              },
+              {
+                "original": "tomatoes"
+              }
+            ],
+            "generatedRecipeId": null
+          },
+          "totalCalories": 2400
+        }
+      ]
+    }
+  ]
+}

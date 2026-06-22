@@ -45,6 +45,23 @@ export default function MealPlanner() {
     if (!mealPlan) return;
     try {
       await api.post('/user/meal-plan', { mealPlan });
+      
+      const activePreferences = Object.entries(preferences)
+        .filter(([_, isActive]) => isActive)
+        .map(([key]) => key.replace(/([A-Z])/g, ' $1').toLowerCase());
+
+      const activeHealthConditions = Object.entries(healthConditions)
+        .filter(([_, isActive]) => isActive)
+        .map(([key]) => key.replace(/([A-Z])/g, '-$1').toLowerCase());
+
+      await api.post('/user/saved-plans', {
+        mealPlan,
+        calories,
+        preferences: activePreferences,
+        healthConditions: activeHealthConditions,
+        avoidances: avoidances.trim()
+      });
+
       showToast('Meal plan saved successfully! 📅');
     } catch (err) {
       showToast(err.message || 'Failed to save meal plan', 'error');

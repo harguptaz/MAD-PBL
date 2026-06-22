@@ -7,6 +7,7 @@ const router = express.Router();
 const SAVED_FILE = path.join(__dirname, '..', 'data', 'saved.json');
 const SESSIONS_FILE = path.join(__dirname, '..', 'data', 'sessions.json');
 const MEAL_PLANS_FILE = path.join(__dirname, '..', 'data', 'meal_plans.json');
+const SAVED_PLANS_FILE = path.join(__dirname, '..', 'data', 'saved_plans.json');
 
 // All routes require authentication
 router.use(authenticateToken);
@@ -158,6 +159,89 @@ router.post('/meal-plan', (req, res) => {
   writeJSON(MEAL_PLANS_FILE, allMealPlans);
 
   res.json({ message: 'Meal plan saved!', mealPlan });
+});
+
+/**
+ * GET /api/user/saved-plans
+ * Returns all permanently saved plans for the user.
+ */
+router.get('/saved-plans', (req, res) => {
+  const allSavedPlans = readJSON(SAVED_PLANS_FILE);
+  const userPlans = allSavedPlans[req.user.id] || [];
+  res.json({ savedPlans: userPlans });
+});
+
+/**
+ * POST /api/user/saved-plans
+ * Appends a new saved meal plan for the user.
+ */
+router.post('/saved-plans', (req, res) => {
+  const { mealPlan, calories, preferences = [], healthConditions = [], avoidances = '' } = req.body;
+
+  if (!mealPlan || !Array.isArray(mealPlan)) {
+    return res.status(400).json({ error: 'Meal plan data is required.' });
+  }
+
+  const allSavedPlans = readJSON(SAVED_PLANS_FILE);
+  const userPlans = allSavedPlans[req.user.id] || [];
+
+  const planId = 'plan-' + Date.now() + '-' + Math.random().toString(36).substring(2, 8);
+  const savedAt = new Date().toISOString();
+
+  // Ensure generatedRecipeId is null on every slot
+  const sanitizedPlan = mealPlan.map(day => ({
+    ...day,
+    breakfast: { ...day.breakfast, generatedRecipeId: null },
+    lunch: { ...day.lunch, generatedRecipeId: null },
+    dinner: { ...day.dinner, generatedRecipeId: null }
+  }));
+
+  const newPlan = {
+    id: planId,
+    savedAt,
+    calories,
+    preferences,
+    healthConditions,
+    avoidances,
+    days: sanitizedPlan
+  };
+
+  userPlans.push(newPlan);
+  allSavedPlans[req.user.id] = userPlans;
+  writeJSON(SAVED_PLANS_FILE, allSavedPlans);
+
+  res.status(201).json({ message: 'Plan saved successfully.', planId });
+});
+
+/**
+ * PATCH /api/user/saved-plans/:planId/meals
+ * Updates the generatedRecipeId for a specific meal slot.
+ */
+router.patch('/saved-plans/:planId/meals', (req, res) => {
+  const { planId } = req.params;
+  const { day, mealType, generatedRecipeId } = req.body;
+
+  if (!day || !mealType || !generatedRecipeId) {
+    return res.status(400).json({ error: 'day, mealType, and generatedRecipeId are required.' });
+  }
+
+  const allSavedPlans = readJSON(SAVED_PLANS_FILE);
+  const userPlans = allSavedPlans[req.user.id] || [];
+
+  const planIndex = userPlans.findIndex(p => p.id === planId);
+  if (planIndex === -1) {
+    return res.status(404).json({ error: 'Saved plan not found.' });
+  }
+
+  const dayObj = userPlans[planIndex].days.find(d => d.day === day);
+  if (!dayObj || !dayObj[mealType]) {
+    return res.status(404).json({ error: 'Day or meal slot not found in plan.' });
+  }
+
+  dayObj[mealType].generatedRecipeId = generatedRecipeId;
+  writeJSON(SAVED_PLANS_FILE, allSavedPlans);
+
+  res.json({ message: 'Recipe ID updated successfully.' });
 });
 
 module.exports = router;
