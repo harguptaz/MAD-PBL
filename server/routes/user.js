@@ -81,11 +81,15 @@ router.post('/saved', (req, res) => {
  * Removes a saved recipe by recipe ID.
  */
 router.delete('/saved/:id', (req, res) => {
-  const recipeId = parseInt(req.params.id);
+  const recipeId = req.params.id;                          // keep as raw string
   const allSaved = readJSON(SAVED_FILE);
   const userSaved = allSaved[req.user.id] || [];
 
-  allSaved[req.user.id] = userSaved.filter((r) => r.id !== recipeId);
+  // String-compare both sides so numeric Spoonacular IDs
+  // and string AI IDs (e.g. "ai-1778259446911-694") both match
+  allSaved[req.user.id] = userSaved.filter(
+    (r) => String(r.id) !== String(recipeId)
+  );
   writeJSON(SAVED_FILE, allSaved);
 
   res.json({ message: 'Recipe removed.', saved: allSaved[req.user.id] });

@@ -19,14 +19,5 @@
       "savedAt": "2026-05-04T01:49:10.911Z"
     }
   ],
-  "1778238108248": [
-    {
-      "id": "ai-1778259592500-177",
-      "title": "Grilled Tomato",
-      "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe",
-      "readyInMinutes": 15,
-      "servings": 1,
-      "savedAt": "2026-05-08T17:00:01.534Z"
-    }
-  ]
+  "1778238108248": []
 }

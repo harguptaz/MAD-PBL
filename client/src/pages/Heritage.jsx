@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { useAuth } from '../context/AuthContext';
 import { useToast } from '../components/Toast';
 import IndiaMap from '../components/IndiaMap';
 import RecipeCard from '../components/RecipeCard';
+import api from '../utils/api';
 
 // A generic list of Indian States and UTs for the List View
 const INDIAN_STATES = [
@@ -22,8 +22,7 @@ export default function Heritage() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
   const [source, setSource] = useState(null);
-  
-  const { token } = useAuth();
+
   const { showToast } = useToast();
 
   const handleStateSelect = async (stateName) => {
@@ -33,17 +32,10 @@ export default function Heritage() {
     setSource(null);
 
     try {
-      const response = await fetch(`/api/heritage/recipes?state=${encodeURIComponent(stateName)}`, {
-        headers: {
-          'Authorization': `Bearer ${token}`
-        }
-      });
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to fetch recipes');
-      }
-
+      // api.get reads the JWT from localStorage automatically
+      const data = await api.get(
+        `/heritage/recipes?state=${encodeURIComponent(stateName)}`
+      );
       setRecipes(data.recipes || []);
       setSource(data.source);
     } catch (err) {
@@ -61,13 +53,13 @@ export default function Heritage() {
           <p>Discover historical, rare, and authentic local dishes from across India.</p>
         </div>
         <div className="view-toggle">
-          <button 
+          <button
             className={`btn ${viewMode === 'map' ? 'btn-primary' : 'btn-outline'}`}
             onClick={() => setViewMode('map')}
           >
             Map View
           </button>
-          <button 
+          <button
             className={`btn ${viewMode === 'list' ? 'btn-primary' : 'btn-outline'}`}
             onClick={() => setViewMode('list')}
           >
@@ -84,8 +76,8 @@ export default function Heritage() {
           ) : (
             <div className="state-list">
               {INDIAN_STATES.map((stateName) => (
-                <button 
-                  key={stateName} 
+                <button
+                  key={stateName}
                   className={`state-list-item ${selectedState === stateName ? 'active' : ''}`}
                   onClick={() => handleStateSelect(stateName)}
                 >
@@ -101,7 +93,7 @@ export default function Heritage() {
           {selectedState ? (
             <>
               <h3 className="state-title">
-                {selectedState} 
+                {selectedState}
                 {source === 'ai' && <span className="badge badge-ai">AI Generated</span>}
                 {source === 'local' && <span className="badge badge-auth">Authentic Collection</span>}
               </h3>
@@ -114,7 +106,7 @@ export default function Heritage() {
               ) : recipes.length > 0 ? (
                 <div className="heritage-recipes-list">
                   {recipes.map(recipe => (
-                    <motion.div 
+                    <motion.div
                       key={recipe.id}
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -138,7 +130,7 @@ export default function Heritage() {
             </>
           ) : (
             <div className="empty-state">
-              <span role="img" aria-label="india" style={{fontSize: "3rem"}}>🇮🇳</span>
+              <span role="img" aria-label="india" style={{ fontSize: "3rem" }}>🇮🇳</span>
               <p>Select a state from the {viewMode} to explore its culinary heritage.</p>
             </div>
           )}

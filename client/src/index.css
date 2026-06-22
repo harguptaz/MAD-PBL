@@ -782,6 +782,12 @@ img { max-width: 100%; display: block; }
   margin-bottom: 16px;
 }
 
+.meal-section-divider {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
 .meal-toggles {
   display: flex; flex-wrap: wrap; gap: 12px;
 }

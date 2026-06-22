@@ -9106,5 +9106,180 @@
     "id": "ai-heritage-1782103203315-13",
     "isCustom": true,
     "source": "ai-heritage"
+  },
+  "ai-1782103834307-701": {
+    "title": "Paneer Tikka",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "summary": "A popular Indian dish made by marinating paneer in spices and grilling it, often served with vegetables like onions and carrots. The dish has a rich, creamy flavor profile with a smoky undertone from the grilling process.",
+    "extendedIngredients": [
+      {
+        "original": "250g paneer",
+        "name": "paneer"
+      },
+      {
+        "original": "1 large onion, chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 large carrots, chopped",
+        "name": "carrot"
+      },
+      {
+        "original": "2 tablespoons green chilly sauce",
+        "name": "green chilly sauce"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Cut the paneer into small cubes and set aside."
+          },
+          {
+            "number": 2,
+            "step": "In a large bowl, mix together the chopped onion, carrot, and green chilly sauce."
+          },
+          {
+            "number": 3,
+            "step": "Add the paneer cubes to the bowl and mix well to coat with the marinade."
+          },
+          {
+            "number": 4,
+            "step": "Cover the bowl with plastic wrap and refrigerate for at least 30 minutes to allow the paneer to marinate."
+          },
+          {
+            "number": 5,
+            "step": "Preheat a grill or grill pan to medium-high heat. Thread the marinated paneer and vegetables onto skewers."
+          },
+          {
+            "number": 6,
+            "step": "Grill the skewers for 10-12 minutes, turning occasionally, until the paneer is golden brown and the vegetables are tender."
+          },
+          {
+            "number": 7,
+            "step": "Serve the paneer tikka hot, garnished with fresh cilantro or mint leaves."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1782103834307-701",
+    "isCustom": true,
+    "image": "/api/images/cover.jpg"
+  },
+  "ai-1782103834307-247": {
+    "title": "Carrot and Onion Bhurji",
+    "readyInMinutes": 20,
+    "servings": 2,
+    "summary": "A simple and flavorful Indian dish made with sautéed carrots, onions, and paneer. The dish has a light, refreshing flavor profile with a hint of spice from the green chilly sauce.",
+    "extendedIngredients": [
+      {
+        "original": "2 large carrots, grated",
+        "name": "carrot"
+      },
+      {
+        "original": "1 large onion, chopped",
+        "name": "onion"
+      },
+      {
+        "original": "100g paneer, crumbled",
+        "name": "paneer"
+      },
+      {
+        "original": "1 tablespoon green chilly sauce",
+        "name": "green chilly sauce"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat a large pan over medium heat and add the chopped onion. Sauté until the onion is translucent."
+          },
+          {
+            "number": 2,
+            "step": "Add the grated carrot to the pan and continue to sauté for 2-3 minutes, until the carrot is tender."
+          },
+          {
+            "number": 3,
+            "step": "Add the crumbled paneer to the pan and stir well to combine with the onion and carrot."
+          },
+          {
+            "number": 4,
+            "step": "Add the green chilly sauce to the pan and stir well to combine."
+          },
+          {
+            "number": 5,
+            "step": "Continue to cook for an additional 2-3 minutes, until the paneer is heated through and the mixture is well combined."
+          },
+          {
+            "number": 6,
+            "step": "Serve the carrot and onion bhurji hot, garnished with fresh cilantro or mint leaves."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1782103834307-247",
+    "isCustom": true,
+    "image": "/api/images/cover.jpg"
+  },
+  "ai-1782103834307-172": {
+    "title": "Paneer and Vegetable Stir-Fry",
+    "readyInMinutes": 25,
+    "servings": 2,
+    "summary": "A quick and easy stir-fry made with paneer, carrots, onions, and green chilly sauce. The dish has a savory flavor profile with a spicy kick from the green chilly sauce.",
+    "extendedIngredients": [
+      {
+        "original": "100g paneer, cut into small cubes",
+        "name": "paneer"
+      },
+      {
+        "original": "1 large onion, chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 large carrots, peeled and chopped",
+        "name": "carrot"
+      },
+      {
+        "original": "2 tablespoons green chilly sauce",
+        "name": "green chilly sauce"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat a large pan or wok over medium-high heat and add the chopped onion. Sauté until the onion is translucent."
+          },
+          {
+            "number": 2,
+            "step": "Add the chopped carrot to the pan and continue to sauté for 2-3 minutes, until the carrot is tender."
+          },
+          {
+            "number": 3,
+            "step": "Add the paneer cubes to the pan and stir well to combine with the onion and carrot."
+          },
+          {
+            "number": 4,
+            "step": "Add the green chilly sauce to the pan and stir well to combine."
+          },
+          {
+            "number": 5,
+            "step": "Continue to cook for an additional 2-3 minutes, until the paneer is heated through and the mixture is well combined."
+          },
+          {
+            "number": 6,
+            "step": "Serve the paneer and vegetable stir-fry hot, garnished with fresh cilantro or mint leaves."
+          }
+        ]
+      }
+    ],
+    "id": "ai-1782103834307-172",
+    "isCustom": true,
+    "image": "/api/images/cover.jpg"
   }
 }

@@ -184,7 +184,7 @@ router.post('/substitute', authenticateToken, async (req, res) => {
  * Calls the Groq API to get a 7-day meal plan as JSON.
  */
 router.post('/meal-plan', authenticateToken, async (req, res) => {
-  const { preferences = [], calories } = req.body;
+  const { preferences = [], healthConditions = [], avoidances = '', calories } = req.body;
 
   if (!calories || isNaN(calories) || calories < 500) {
     return res.status(400).json({ error: 'Please provide a valid daily calorie goal (min 500).' });
@@ -195,9 +195,16 @@ router.post('/meal-plan', authenticateToken, async (req, res) => {
     return res.status(500).json({ error: 'Groq API key is not configured on the server.' });
   }
 
-  const prefsText = preferences.length > 0 ? preferences.join(', ') : 'no specific dietary restrictions';
+  const prefsText = preferences.length > 0 ? preferences.join(', ') : 'none';
+  const healthConditionsText = healthConditions.length > 0 ? healthConditions.join(', ') : 'none';
   
-  const prompt = `Create a 7-day meal plan for someone who is ${prefsText} with a daily calorie goal of ${calories}. 
+  const prompt = `Create a 7-day meal plan tailored to the following criteria:
+- Dietary preferences: ${prefsText}
+- Health conditions to accommodate: ${healthConditionsText}
+- Ingredients or allergens to strictly avoid: ${avoidances || 'none'}
+- Daily calorie target: ${calories} kcal
+
+Do not include any dish that contains the avoided ingredients under any circumstances.
 For each day list breakfast, lunch, and dinner with approximate calories AND a concise list of ingredients for each. 
 Return the response strictly as a JSON array of objects with exactly this structure:
 [

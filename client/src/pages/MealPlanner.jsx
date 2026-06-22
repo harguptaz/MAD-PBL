@@ -11,6 +11,15 @@ export default function MealPlanner() {
     glutenFree: false,
     highProtein: false,
   });
+  const [healthConditions, setHealthConditions] = useState({
+    diabeticFriendly: false,
+    heartHealthy: false,
+    lowSodium: false,
+    kidneyFriendly: false,
+    pcosFriendly: false,
+    lowCholesterol: false,
+  });
+  const [avoidances, setAvoidances] = useState('');
   const [calories, setCalories] = useState(null);
   const [mealPlan, setMealPlan] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -46,6 +55,10 @@ export default function MealPlanner() {
     setPreferences((prev) => ({ ...prev, [key]: !prev[key] }));
   };
 
+  const handleHealthToggle = (key) => {
+    setHealthConditions((prev) => ({ ...prev, [key]: !prev[key] }));
+  };
+
   const generatePlan = async (e) => {
     e.preventDefault();
     if (calories < 500) {
@@ -61,9 +74,15 @@ export default function MealPlanner() {
       .filter(([_, isActive]) => isActive)
       .map(([key]) => key.replace(/([A-Z])/g, ' $1').toLowerCase()); // e.g. glutenFree -> gluten free
 
+    const activeHealthConditions = Object.entries(healthConditions)
+      .filter(([_, isActive]) => isActive)
+      .map(([key]) => key.replace(/([A-Z])/g, '-$1').toLowerCase());
+
     try {
       const data = await api.post('/ai/meal-plan', {
         preferences: activePreferences,
+        healthConditions: activeHealthConditions,
+        avoidances: avoidances.trim(),
         calories
       });
       setMealPlan(data.mealPlan);
@@ -111,7 +130,50 @@ export default function MealPlanner() {
             </div>
           </div>
 
-          <div className="meal-form-section">
+          <div className="meal-form-section meal-section-divider">
+            <h3 className="meal-section-title">Health Conditions</h3>
+            <div className="meal-toggles">
+              <label className={`meal-toggle ${healthConditions.diabeticFriendly ? 'active' : ''}`}>
+                <input type="checkbox" checked={healthConditions.diabeticFriendly} onChange={() => handleHealthToggle('diabeticFriendly')} />
+                Diabetic-Friendly
+              </label>
+              <label className={`meal-toggle ${healthConditions.heartHealthy ? 'active' : ''}`}>
+                <input type="checkbox" checked={healthConditions.heartHealthy} onChange={() => handleHealthToggle('heartHealthy')} />
+                Heart-Healthy
+              </label>
+              <label className={`meal-toggle ${healthConditions.lowSodium ? 'active' : ''}`}>
+                <input type="checkbox" checked={healthConditions.lowSodium} onChange={() => handleHealthToggle('lowSodium')} />
+                Low-Sodium
+              </label>
+              <label className={`meal-toggle ${healthConditions.kidneyFriendly ? 'active' : ''}`}>
+                <input type="checkbox" checked={healthConditions.kidneyFriendly} onChange={() => handleHealthToggle('kidneyFriendly')} />
+                Kidney-Friendly
+              </label>
+              <label className={`meal-toggle ${healthConditions.pcosFriendly ? 'active' : ''}`}>
+                <input type="checkbox" checked={healthConditions.pcosFriendly} onChange={() => handleHealthToggle('pcosFriendly')} />
+                PCOS-Friendly
+              </label>
+              <label className={`meal-toggle ${healthConditions.lowCholesterol ? 'active' : ''}`}>
+                <input type="checkbox" checked={healthConditions.lowCholesterol} onChange={() => handleHealthToggle('lowCholesterol')} />
+                Low-Cholesterol
+              </label>
+            </div>
+          </div>
+
+          <div className="meal-form-section meal-section-divider">
+            <h3 className="meal-section-title">Allergies or Ingredients to Avoid</h3>
+            <div className="meal-input-wrapper">
+              <input
+                placeholder="e.g. peanuts, shellfish, dairy, onions..."
+                type="text"
+                className="form-input meal-input"
+                value={avoidances}
+                onChange={(e) => setAvoidances(e.target.value)}
+              />
+            </div>
+          </div>
+
+          <div className="meal-form-section meal-section-divider">
             <h3 className="meal-section-title">Daily Calorie Goal</h3>
             <div className="meal-input-wrapper">
               <span className="meal-input-icon">
