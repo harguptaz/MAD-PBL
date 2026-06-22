@@ -72,6 +72,9 @@ export default function RecipeDetail() {
   // Parse instructions into steps
   const instructionSteps = recipe.analyzedInstructions?.[0]?.steps || [];
 
+  const isCustomOrAI = recipe.isCustom || (typeof recipe.id === 'string' && recipe.id.startsWith('ai-'));
+  const imageUrl = isCustomOrAI ? '/api/images/cover.jpg' : (recipe.image || '/api/images/cover.jpg');
+
   return (
     <div>
       <button className="detail-back" onClick={() => navigate(-1)}>
@@ -81,7 +84,7 @@ export default function RecipeDetail() {
       {/* Hero Image */}
       <div className="detail-hero">
         <img
-          src={recipe.image || 'https://via.placeholder.com/800x400?text=No+Image'}
+          src={imageUrl}
           alt={recipe.title}
         />
         <div className="detail-hero-overlay">

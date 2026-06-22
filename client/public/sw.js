@@ -28,6 +28,11 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const { request } = event;
 
+  // Fix for Chrome DevTools 'only-if-cached' bug
+  if (request.cache === 'only-if-cached' && request.mode !== 'same-origin') {
+    return;
+  }
+
   // Network first for API calls
   if (request.url.includes('/api/')) {
     event.respondWith(

@@ -53,6 +53,7 @@ IMPORTANT: You must respond ONLY with a valid JSON array containing exactly 3 re
     "title": "Recipe Name",
     "readyInMinutes": 45,
     "servings": 4,
+    "healthScore": 85,
     "image": "/api/images/cover.jpg",
     "extendedIngredients": [
       { "original": "2 cups ingredient", "name": "ingredient" }
@@ -118,7 +119,8 @@ Do NOT wrap the JSON in markdown code blocks. Return ONLY the raw JSON array.`;
                   title: fullRecipe.title,
                   image: fullRecipe.image,
                   readyInMinutes: fullRecipe.readyInMinutes,
-                  servings: fullRecipe.servings
+                  servings: fullRecipe.servings,
+                  healthScore: fullRecipe.healthScore
                 };
               });
 

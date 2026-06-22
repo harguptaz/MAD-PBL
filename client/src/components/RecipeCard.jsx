@@ -19,9 +19,12 @@ export default function RecipeCard({ recipe, savedIds, onToggleSave }) {
     onToggleSave(recipe);
   };
 
+  const isCustomOrAI = recipe.isCustom || (typeof recipe.id === 'string' && recipe.id.startsWith('ai-'));
+  const imageUrl = isCustomOrAI ? '/api/images/cover.jpg' : (recipe.image || '/api/images/cover.jpg');
+
   return (
-    <motion.div 
-      className="card recipe-card" 
+    <motion.div
+      className="card recipe-card"
       onClick={handleCardClick}
       variants={itemVariants}
       whileHover={{ scale: 1.02 }}
@@ -30,7 +33,7 @@ export default function RecipeCard({ recipe, savedIds, onToggleSave }) {
       <div className="recipe-card-img-wrapper">
         <img
           className="recipe-card-img"
-          src={recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}
+          src={imageUrl}
           alt={recipe.title}
           loading="lazy"
         />

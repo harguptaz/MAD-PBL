@@ -645,7 +645,7 @@
     ],
     "id": "ai-1779252201946-207",
     "isCustom": true,
-    "image": "https://via.placeholder.com/600x400/f59e0b/ffffff?text=AI+Generated+Recipe"
+    "image": "/api/images/cover.jpg"
   },
   "ai-1779252201946-482": {
     "title": "Lotus Stem Curry",
@@ -5647,5 +5647,3464 @@
     ],
     "id": "ai-search-1781637249871-2",
     "source": "ai-fallback"
+  },
+  "ai-search-1782100479741-0": {
+    "title": "Lasan Ki Khir Recipe 1",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "image": "/api/images/lasan-ki-khir.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups milk",
+        "name": "milk"
+      },
+      {
+        "original": "1/2 cup basmati rice",
+        "name": "basmati rice"
+      },
+      {
+        "original": "1/4 cup ghee or unsalted butter",
+        "name": "ghee or unsalted butter"
+      },
+      {
+        "original": "1/2 teaspoon ground cardamom",
+        "name": "ground cardamom"
+      },
+      {
+        "original": "1/4 teaspoon ground cinnamon",
+        "name": "ground cinnamon"
+      },
+      {
+        "original": "1/4 teaspoon ground cloves",
+        "name": "ground cloves"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/2 cup chopped almonds or pistachios",
+        "name": "chopped almonds or pistachios"
+      },
+      {
+        "original": "1/2 teaspoon saffron threads, soaked in 1 tablespoon hot water",
+        "name": "saffron threads"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by rinsing the basmati rice in a fine mesh sieve until the water runs clear, then soak it in water for at least 30 minutes. After soaking, drain the water and set the rice aside."
+          },
+          {
+            "number": 2,
+            "step": "In a large saucepan, combine the milk, ghee or unsalted butter, ground cardamom, ground cinnamon, and ground cloves. Heat the mixture over medium heat, stirring occasionally, until the butter has melted and the mixture is hot but not boiling."
+          },
+          {
+            "number": 3,
+            "step": "Add the soaked and drained basmati rice to the saucepan with the milk mixture. Stir gently to combine, then reduce the heat to low and simmer, covered, for about 18-20 minutes, or until the rice is cooked and the mixture has thickened."
+          },
+          {
+            "number": 4,
+            "step": "While the rice is cooking, prepare the sugar syrup by combining the sugar and 1/2 cup of water in a small saucepan. Heat the mixture over medium heat, stirring until the sugar has dissolved, then bring to a boil. Reduce the heat to medium-low and simmer for about 5 minutes, or until the syrup has thickened slightly."
+          },
+          {
+            "number": 5,
+            "step": "Once the rice is cooked, stir in the sugar syrup, chopped almonds or pistachios, and soaked saffron threads with their liquid. Cook for an additional 2-3 minutes, stirring constantly, until the mixture is well combined and the flavors have melded together."
+          },
+          {
+            "number": 6,
+            "step": "Remove the saucepan from the heat and let it cool slightly. Stir in any additional flavorings, such as a pinch of salt or a few drops of rose water, if desired."
+          },
+          {
+            "number": 7,
+            "step": "Transfer the lasan ki khir to individual serving cups or a large serving dish. Cover with plastic wrap or aluminum foil, pressing the wrap directly onto the surface of the pudding to prevent a skin from forming."
+          },
+          {
+            "number": 8,
+            "step": "Refrigerate the lasan ki khir for at least 2 hours, or until chilled and set. Just before serving, garnish with additional chopped nuts, a sprinkle of cardamom powder, or a few saffron threads, if desired."
+          },
+          {
+            "number": 9,
+            "step": "Serve the lasan ki khir chilled, either on its own or as part of a larger dessert spread. Traditionally, it is served at special occasions and celebrations, such as weddings and holidays."
+          },
+          {
+            "number": 10,
+            "step": "If desired, the lasan ki khir can be flavored with other ingredients, such as a few drops of kewra essence or a handful of dried fruit, to give it a unique twist."
+          },
+          {
+            "number": 11,
+            "step": "To make the lasan ki khir more rich and creamy, a few tablespoons of heavy cream or half-and-half can be stirred in just before serving."
+          },
+          {
+            "number": 12,
+            "step": "Experiment with different types of milk, such as almond or coconut milk, to create a non-dairy version of the lasan ki khir that is just as delicious and creamy."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782100479741-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782100479741-1": {
+    "title": "Lasan Ki Khir Recipe 2",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "image": "/api/images/lasan-ki-khir-2.jpg",
+    "extendedIngredients": [
+      {
+        "original": "3 cups milk",
+        "name": "milk"
+      },
+      {
+        "original": "3/4 cup basmati rice",
+        "name": "basmati rice"
+      },
+      {
+        "original": "1/2 cup ghee or unsalted butter",
+        "name": "ghee or unsalted butter"
+      },
+      {
+        "original": "1 teaspoon ground cardamom",
+        "name": "ground cardamom"
+      },
+      {
+        "original": "1/2 teaspoon ground cinnamon",
+        "name": "ground cinnamon"
+      },
+      {
+        "original": "1/2 teaspoon ground cloves",
+        "name": "ground cloves"
+      },
+      {
+        "original": "3/4 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "3/4 cup chopped almonds or pistachios",
+        "name": "chopped almonds or pistachios"
+      },
+      {
+        "original": "1 teaspoon saffron threads, soaked in 2 tablespoons hot water",
+        "name": "saffron threads"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by preparing the basmati rice, rinsing it in a fine mesh sieve until the water runs clear, then soaking it in water for at least 30 minutes. After soaking, drain the water and set the rice aside."
+          },
+          {
+            "number": 2,
+            "step": "In a large saucepan, combine the milk, ghee or unsalted butter, ground cardamom, ground cinnamon, and ground cloves. Heat the mixture over medium heat, stirring occasionally, until the butter has melted and the mixture is hot but not boiling."
+          },
+          {
+            "number": 3,
+            "step": "Add the soaked and drained basmati rice to the saucepan with the milk mixture. Stir gently to combine, then reduce the heat to low and simmer, covered, for about 20-22 minutes, or until the rice is cooked and the mixture has thickened."
+          },
+          {
+            "number": 4,
+            "step": "While the rice is cooking, prepare the sugar syrup by combining the sugar and 3/4 cup of water in a small saucepan. Heat the mixture over medium heat, stirring until the sugar has dissolved, then bring to a boil. Reduce the heat to medium-low and simmer for about 5 minutes, or until the syrup has thickened slightly."
+          },
+          {
+            "number": 5,
+            "step": "Once the rice is cooked, stir in the sugar syrup, chopped almonds or pistachios, and soaked saffron threads with their liquid. Cook for an additional 2-3 minutes, stirring constantly, until the mixture is well combined and the flavors have melded together."
+          },
+          {
+            "number": 6,
+            "step": "Remove the saucepan from the heat and let it cool slightly. Stir in any additional flavorings, such as a pinch of salt or a few drops of rose water, if desired."
+          },
+          {
+            "number": 7,
+            "step": "Transfer the lasan ki khir to individual serving cups or a large serving dish. Cover with plastic wrap or aluminum foil, pressing the wrap directly onto the surface of the pudding to prevent a skin from forming."
+          },
+          {
+            "number": 8,
+            "step": "Refrigerate the lasan ki khir for at least 2 hours, or until chilled and set. Just before serving, garnish with additional chopped nuts, a sprinkle of cardamom powder, or a few saffron threads, if desired."
+          },
+          {
+            "number": 9,
+            "step": "Serve the lasan ki khir chilled, either on its own or as part of a larger dessert spread. Traditionally, it is served at special occasions and celebrations, such as weddings and holidays."
+          },
+          {
+            "number": 10,
+            "step": "If desired, the lasan ki khir can be flavored with other ingredients, such as a few drops of kewra essence or a handful of dried fruit, to give it a unique twist."
+          },
+          {
+            "number": 11,
+            "step": "To make the lasan ki khir more rich and creamy, a few tablespoons of heavy cream or half-and-half can be stirred in just before serving."
+          },
+          {
+            "number": 12,
+            "step": "Experiment with different types of milk, such as almond or coconut milk, to create a non-dairy version of the lasan ki khir that is just as delicious and creamy."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782100479741-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782100479741-2": {
+    "title": "Lasan Ki Khir Recipe 3",
+    "readyInMinutes": 50,
+    "servings": 8,
+    "image": "/api/images/lasan-ki-khir-3.jpg",
+    "extendedIngredients": [
+      {
+        "original": "4 cups milk",
+        "name": "milk"
+      },
+      {
+        "original": "1 cup basmati rice",
+        "name": "basmati rice"
+      },
+      {
+        "original": "3/4 cup ghee or unsalted butter",
+        "name": "ghee or unsalted butter"
+      },
+      {
+        "original": "1 1/2 teaspoons ground cardamom",
+        "name": "ground cardamom"
+      },
+      {
+        "original": "3/4 teaspoon ground cinnamon",
+        "name": "ground cinnamon"
+      },
+      {
+        "original": "3/4 teaspoon ground cloves",
+        "name": "ground cloves"
+      },
+      {
+        "original": "1 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1 cup chopped almonds or pistachios",
+        "name": "chopped almonds or pistachios"
+      },
+      {
+        "original": "1 1/2 teaspoons saffron threads, soaked in 3 tablespoons hot water",
+        "name": "saffron threads"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by preparing the basmati rice, rinsing it in a fine mesh sieve until the water runs clear, then soaking it in water for at least 30 minutes. After soaking, drain the water and set the rice aside."
+          },
+          {
+            "number": 2,
+            "step": "In a large saucepan, combine the milk, ghee or unsalted butter, ground cardamom, ground cinnamon, and ground cloves. Heat the mixture over medium heat, stirring occasionally, until the butter has melted and the mixture is hot but not boiling."
+          },
+          {
+            "number": 3,
+            "step": "Add the soaked and drained basmati rice to the saucepan with the milk mixture. Stir gently to combine, then reduce the heat to low and simmer, covered, for about 22-25 minutes, or until the rice is cooked and the mixture has thickened."
+          },
+          {
+            "number": 4,
+            "step": "While the rice is cooking, prepare the sugar syrup by combining the sugar and 1 cup of water in a small saucepan. Heat the mixture over medium heat, stirring until the sugar has dissolved, then bring to a boil. Reduce the heat to medium-low and simmer for about 5 minutes, or until the syrup has thickened slightly."
+          },
+          {
+            "number": 5,
+            "step": "Once the rice is cooked, stir in the sugar syrup, chopped almonds or pistachios, and soaked saffron threads with their liquid. Cook for an additional 2-3 minutes, stirring constantly, until the mixture is well combined and the flavors have melded together."
+          },
+          {
+            "number": 6,
+            "step": "Remove the saucepan from the heat and let it cool slightly. Stir in any additional flavorings, such as a pinch of salt or a few drops of rose water, if desired."
+          },
+          {
+            "number": 7,
+            "step": "Transfer the lasan ki khir to individual serving cups or a large serving dish. Cover with plastic wrap or aluminum foil, pressing the wrap directly onto the surface of the pudding to prevent a skin from forming."
+          },
+          {
+            "number": 8,
+            "step": "Refrigerate the lasan ki khir for at least 2 hours, or until chilled and set. Just before serving, garnish with additional chopped nuts, a sprinkle of cardamom powder, or a few saffron threads, if desired."
+          },
+          {
+            "number": 9,
+            "step": "Serve the lasan ki khir chilled, either on its own or as part of a larger dessert spread. Traditionally, it is served at special occasions and celebrations, such as weddings and holidays."
+          },
+          {
+            "number": 10,
+            "step": "If desired, the lasan ki khir can be flavored with other ingredients, such as a few drops of kewra essence or a handful of dried fruit, to give it a unique twist."
+          },
+          {
+            "number": 11,
+            "step": "To make the lasan ki khir more rich and creamy, a few tablespoons of heavy cream or half-and-half can be stirred in just before serving."
+          },
+          {
+            "number": 12,
+            "step": "Experiment with different types of milk, such as almond or coconut milk, to create a non-dairy version of the lasan ki khir that is just as delicious and creamy."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782100479741-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101224663-0": {
+    "title": "Haldi Ki Sabji with Potatoes",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "image": "/api/images/cover1.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 medium potatoes",
+        "name": "potatoes"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/4 teaspoon black pepper",
+        "name": "black pepper"
+      },
+      {
+        "original": "2 tablespoons vegetable oil",
+        "name": "vegetable oil"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "2 tablespoons freshly chopped cilantro",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by washing the potatoes thoroughly, then peel them using a vegetable peeler. Once peeled, cut the potatoes into small, bite-sized cubes and set them aside in a bowl of cold water to prevent browning."
+          },
+          {
+            "number": 2,
+            "step": "Next, finely chop the large onion. To do this, peel the onion, place it on its side, and cut it in half. Then, make parallel cuts along the lines of the onion without cutting all the way through the root end. Finally, cut perpendicular to the parallel cuts to create small, uniform pieces."
+          },
+          {
+            "number": 3,
+            "step": "Mince the garlic cloves using a garlic press or by finely chopping them with a knife. Set the minced garlic aside for later use."
+          },
+          {
+            "number": 4,
+            "step": "Heat 2 tablespoons of vegetable oil in a large saucepan over medium heat. Once the oil is hot, add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped onion to the saucepan and sauté until it becomes translucent and starts to brown. Stir occasionally to prevent burning."
+          },
+          {
+            "number": 6,
+            "step": "Add the minced garlic to the saucepan and sauté for another minute, stirring constantly to prevent the garlic from burning."
+          },
+          {
+            "number": 7,
+            "step": "Drain the water from the bowl containing the potato cubes and add them to the saucepan. Stir well to combine the potatoes with the onion and garlic mixture."
+          },
+          {
+            "number": 8,
+            "step": "Add the turmeric powder, coriander powder, salt, and black pepper to the saucepan. Stir well to combine the spices with the potato mixture."
+          },
+          {
+            "number": 9,
+            "step": "Add 2 cups of water to the saucepan and bring the mixture to a boil. Once boiling, reduce the heat to low, cover the saucepan with a lid, and let the sabji simmer for about 20 minutes, or until the potatoes are tender."
+          },
+          {
+            "number": 10,
+            "step": "While the sabji is simmering, chop the fresh cilantro leaves. To do this, rinse the cilantro under cold water, shake off excess water, and then cut the leaves from the stems using scissors or a knife. Chop the leaves finely and set them aside."
+          },
+          {
+            "number": 11,
+            "step": "Once the potatoes are tender, remove the lid from the saucepan and check the consistency of the sabji. If it's too thick, add a little more water. If it's too thin, simmer for a few more minutes to reduce the liquid."
+          },
+          {
+            "number": 12,
+            "step": "Finally, garnish the Haldi Ki Sabji with the chopped cilantro leaves and serve hot over rice or with roti."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101224663-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101224663-1": {
+    "title": "Haldi Ki Sabji with Cauliflower",
+    "readyInMinutes": 35,
+    "servings": 4,
+    "image": "/api/images/cover2.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 large cauliflower",
+        "name": "cauliflower"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/4 teaspoon black pepper",
+        "name": "black pepper"
+      },
+      {
+        "original": "2 tablespoons vegetable oil",
+        "name": "vegetable oil"
+      },
+      {
+        "original": "1 cup water",
+        "name": "water"
+      },
+      {
+        "original": "2 tablespoons freshly chopped cilantro",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Rinse the cauliflower under cold water, then remove the leaves and cut it into florets. Set the florets aside in a bowl."
+          },
+          {
+            "number": 2,
+            "step": "Finely chop the large onion using the same method as in the previous recipe. Set the chopped onion aside for later use."
+          },
+          {
+            "number": 3,
+            "step": "Mince the garlic cloves using a garlic press or by finely chopping them with a knife. Set the minced garlic aside for later use."
+          },
+          {
+            "number": 4,
+            "step": "Heat 2 tablespoons of vegetable oil in a large saucepan over medium heat. Once the oil is hot, add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped onion to the saucepan and sauté until it becomes translucent and starts to brown. Stir occasionally to prevent burning."
+          },
+          {
+            "number": 6,
+            "step": "Add the minced garlic to the saucepan and sauté for another minute, stirring constantly to prevent the garlic from burning."
+          },
+          {
+            "number": 7,
+            "step": "Add the cauliflower florets to the saucepan and stir well to combine with the onion and garlic mixture."
+          },
+          {
+            "number": 8,
+            "step": "Add the turmeric powder, coriander powder, salt, and black pepper to the saucepan. Stir well to combine the spices with the cauliflower mixture."
+          },
+          {
+            "number": 9,
+            "step": "Add 1 cup of water to the saucepan and bring the mixture to a boil. Once boiling, reduce the heat to low, cover the saucepan with a lid, and let the sabji simmer for about 15-20 minutes, or until the cauliflower is tender."
+          },
+          {
+            "number": 10,
+            "step": "While the sabji is simmering, chop the fresh cilantro leaves using the same method as in the previous recipe. Set the chopped cilantro aside for garnish."
+          },
+          {
+            "number": 11,
+            "step": "Once the cauliflower is tender, remove the lid from the saucepan and check the consistency of the sabji. If it's too thick, add a little more water. If it's too thin, simmer for a few more minutes to reduce the liquid."
+          },
+          {
+            "number": 12,
+            "step": "Finally, garnish the Haldi Ki Sabji with the chopped cilantro leaves and serve hot over rice or with roti."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101224663-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101224663-2": {
+    "title": "Haldi Ki Sabji with Carrots",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "image": "/api/images/cover3.jpg",
+    "extendedIngredients": [
+      {
+        "original": "4 large carrots",
+        "name": "carrots"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/4 teaspoon black pepper",
+        "name": "black pepper"
+      },
+      {
+        "original": "2 tablespoons vegetable oil",
+        "name": "vegetable oil"
+      },
+      {
+        "original": "1 cup water",
+        "name": "water"
+      },
+      {
+        "original": "2 tablespoons freshly chopped cilantro",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Peel the carrots using a vegetable peeler, then cut them into bite-sized sticks. Set the carrot sticks aside in a bowl."
+          },
+          {
+            "number": 2,
+            "step": "Finely chop the large onion using the same method as in the previous recipes. Set the chopped onion aside for later use."
+          },
+          {
+            "number": 3,
+            "step": "Mince the garlic cloves using a garlic press or by finely chopping them with a knife. Set the minced garlic aside for later use."
+          },
+          {
+            "number": 4,
+            "step": "Heat 2 tablespoons of vegetable oil in a large saucepan over medium heat. Once the oil is hot, add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped onion to the saucepan and sauté until it becomes translucent and starts to brown. Stir occasionally to prevent burning."
+          },
+          {
+            "number": 6,
+            "step": "Add the minced garlic to the saucepan and sauté for another minute, stirring constantly to prevent the garlic from burning."
+          },
+          {
+            "number": 7,
+            "step": "Add the carrot sticks to the saucepan and stir well to combine with the onion and garlic mixture."
+          },
+          {
+            "number": 8,
+            "step": "Add the turmeric powder, coriander powder, salt, and black pepper to the saucepan. Stir well to combine the spices with the carrot mixture."
+          },
+          {
+            "number": 9,
+            "step": "Add 1 cup of water to the saucepan and bring the mixture to a boil. Once boiling, reduce the heat to low, cover the saucepan with a lid, and let the sabji simmer for about 15-20 minutes, or until the carrots are tender."
+          },
+          {
+            "number": 10,
+            "step": "While the sabji is simmering, chop the fresh cilantro leaves using the same method as in the previous recipes. Set the chopped cilantro aside for garnish."
+          },
+          {
+            "number": 11,
+            "step": "Once the carrots are tender, remove the lid from the saucepan and check the consistency of the sabji. If it's too thick, add a little more water. If it's too thin, simmer for a few more minutes to reduce the liquid."
+          },
+          {
+            "number": 12,
+            "step": "Finally, garnish the Haldi Ki Sabji with the chopped cilantro leaves and serve hot over rice or with roti."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101224663-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101368743-0": {
+    "title": "Haldi Ki Sabji Recipe 1",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "image": "/api/images/haldi-ki-sabji.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "1 cup mustard oil",
+        "name": "mustard oil"
+      },
+      {
+        "original": "1 onion, finely chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic, minced",
+        "name": "garlic"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt, to taste",
+        "name": "salt"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "Fresh cilantro, for garnish",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by thoroughly washing the turmeric roots in a fine mesh sieve under cold running water to remove any dirt or debris."
+          },
+          {
+            "number": 2,
+            "step": "Pat the turmeric roots dry with a paper towel to remove excess moisture."
+          },
+          {
+            "number": 3,
+            "step": "Peel the turmeric roots using a vegetable peeler, making sure to remove any tough or fibrous skin."
+          },
+          {
+            "number": 4,
+            "step": "Chop the peeled turmeric roots into small, bite-sized pieces and set them aside."
+          },
+          {
+            "number": 5,
+            "step": "Heat the mustard oil in a large pan over medium heat, allowing it to reach its smoking point."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped onion to the pan and sauté until it turns translucent and starts to caramelize, stirring occasionally."
+          },
+          {
+            "number": 7,
+            "step": "Add the minced garlic to the pan and sauté for another minute, stirring constantly to prevent burning."
+          },
+          {
+            "number": 8,
+            "step": "Add the ground cumin, ground coriander, turmeric powder, and red chili powder to the pan, stirring well to combine."
+          },
+          {
+            "number": 9,
+            "step": "Add the chopped turmeric roots to the pan, stirring to coat them evenly with the spice mixture."
+          },
+          {
+            "number": 10,
+            "step": "Add the water to the pan, bringing the mixture to a boil."
+          },
+          {
+            "number": 11,
+            "step": "Reduce the heat to low and simmer the mixture, covered, for 15-20 minutes, or until the turmeric roots are tender."
+          },
+          {
+            "number": 12,
+            "step": "Season the sabji with salt to taste, then garnish with fresh cilantro and serve hot."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101368743-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101368743-1": {
+    "title": "Haldi Ki Sabji Recipe 2",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "image": "/api/images/haldi-ki-sabji-2.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 cup turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "2 cups yogurt",
+        "name": "yogurt"
+      },
+      {
+        "original": "1/2 cup gram flour",
+        "name": "gram flour"
+      },
+      {
+        "original": "1/4 cup ghee",
+        "name": "ghee"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt, to taste",
+        "name": "salt"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "Fresh cilantro, for garnish",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by peeling and chopping the turmeric roots into small pieces, then set them aside."
+          },
+          {
+            "number": 2,
+            "step": "In a large bowl, whisk together the yogurt, gram flour, and a pinch of salt until smooth."
+          },
+          {
+            "number": 3,
+            "step": "Add the chopped turmeric roots to the bowl, stirring to coat them evenly with the yogurt mixture."
+          },
+          {
+            "number": 4,
+            "step": "Heat the ghee in a large pan over medium heat, allowing it to melt and become fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the ground cumin and ground coriander to the pan, stirring well to combine."
+          },
+          {
+            "number": 6,
+            "step": "Add the turmeric powder and red chili powder to the pan, stirring to combine."
+          },
+          {
+            "number": 7,
+            "step": "Add the yogurt and turmeric root mixture to the pan, stirring well to combine."
+          },
+          {
+            "number": 8,
+            "step": "Add the water to the pan, bringing the mixture to a boil."
+          },
+          {
+            "number": 9,
+            "step": "Reduce the heat to low and simmer the mixture, covered, for 15-20 minutes, or until the turmeric roots are tender."
+          },
+          {
+            "number": 10,
+            "step": "Season the sabji with salt to taste, then garnish with fresh cilantro and serve hot."
+          },
+          {
+            "number": 11,
+            "step": "Serve the sabji with rice, roti, or naan for a delicious and satisfying meal."
+          },
+          {
+            "number": 12,
+            "step": "Refrigerate or freeze the sabji for later use, reheating it as needed."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101368743-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101368743-2": {
+    "title": "Haldi Ki Sabji Recipe 3",
+    "readyInMinutes": 50,
+    "servings": 4,
+    "image": "/api/images/haldi-ki-sabji-3.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 cup turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "2 cups vegetable oil",
+        "name": "vegetable oil"
+      },
+      {
+        "original": "1 onion, finely chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic, minced",
+        "name": "garlic"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt, to taste",
+        "name": "salt"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "Fresh cilantro, for garnish",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Peel and chop the turmeric roots into small pieces, then set them aside."
+          },
+          {
+            "number": 2,
+            "step": "Heat the vegetable oil in a large pan over medium heat, allowing it to reach its smoking point."
+          },
+          {
+            "number": 3,
+            "step": "Add the chopped onion to the pan and sauté until it turns translucent and starts to caramelize, stirring occasionally."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic to the pan and sauté for another minute, stirring constantly to prevent burning."
+          },
+          {
+            "number": 5,
+            "step": "Add the ground cumin, ground coriander, turmeric powder, and red chili powder to the pan, stirring well to combine."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped turmeric roots to the pan, stirring to coat them evenly with the spice mixture."
+          },
+          {
+            "number": 7,
+            "step": "Add the water to the pan, bringing the mixture to a boil."
+          },
+          {
+            "number": 8,
+            "step": "Reduce the heat to low and simmer the mixture, covered, for 15-20 minutes, or until the turmeric roots are tender."
+          },
+          {
+            "number": 9,
+            "step": "Season the sabji with salt to taste, then garnish with fresh cilantro and serve hot."
+          },
+          {
+            "number": 10,
+            "step": "Serve the sabji with rice, roti, or naan for a delicious and satisfying meal."
+          },
+          {
+            "number": 11,
+            "step": "Refrigerate or freeze the sabji for later use, reheating it as needed."
+          },
+          {
+            "number": 12,
+            "step": "Experiment with different spices and ingredients to create your own unique variation of haldi ki sabji."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101368743-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101769178-0": {
+    "title": "Haldi Ki Sabji Recipe 1",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "image": "/api/images/haldi-ki-sabji.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 large tomatoes",
+        "name": "tomatoes"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "1/2 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons vegetable oil",
+        "name": "vegetable oil"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 inch ginger",
+        "name": "ginger"
+      },
+      {
+        "original": "2 tablespoons chopped fresh cilantro",
+        "name": "fresh cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by washing the turmeric roots thoroughly in cold water to remove any dirt or debris. Gently scrub the roots with a soft brush to remove any stubborn dirt."
+          },
+          {
+            "number": 2,
+            "step": "Next, peel the turmeric roots using a vegetable peeler, making sure to remove any tough or fibrous skin. Cut the peeled roots into small, bite-sized pieces and set them aside."
+          },
+          {
+            "number": 3,
+            "step": "Heat 1 tablespoon of vegetable oil in a large pan over medium heat. Add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 4,
+            "step": "Add the chopped onion to the pan and sauté until it is translucent and starting to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 5,
+            "step": "Add the minced garlic and grated ginger to the pan and sauté for another minute, stirring constantly to prevent burning."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped tomatoes to the pan and stir to combine. Cook for about 5 minutes, stirring occasionally, until the tomatoes start to break down and the mixture is well combined."
+          },
+          {
+            "number": 7,
+            "step": "Add the turmeric powder, coriander powder, red chili powder, garam masala powder, and salt to the pan. Stir well to combine and cook for 1-2 minutes, until the spices are fragrant."
+          },
+          {
+            "number": 8,
+            "step": "Add the cut turmeric roots to the pan and stir to combine with the spice mixture. Cook for about 10-12 minutes, stirring occasionally, until the turmeric roots are tender and well coated with the spice mixture."
+          },
+          {
+            "number": 9,
+            "step": "Add 1/2 cup of water to the pan and bring the mixture to a simmer. Reduce the heat to low and let it cook for another 5-7 minutes, stirring occasionally, until the sauce has thickened and the turmeric roots are fully cooked."
+          },
+          {
+            "number": 10,
+            "step": "Stir in the chopped fresh cilantro and cook for an additional minute, until the cilantro is wilted."
+          },
+          {
+            "number": 11,
+            "step": "Remove the pan from the heat and let the Haldi Ki Sabji cool slightly before serving."
+          },
+          {
+            "number": 12,
+            "step": "Serve the Haldi Ki Sabji hot, garnished with additional chopped cilantro if desired."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101769178-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101769178-1": {
+    "title": "Haldi Ki Sabji Recipe 2",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "image": "/api/images/haldi-ki-sabji-2.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 large turmeric root",
+        "name": "turmeric root"
+      },
+      {
+        "original": "2 large potatoes",
+        "name": "potatoes"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 large tomatoes",
+        "name": "tomatoes"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "1/2 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons vegetable oil",
+        "name": "vegetable oil"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 inch ginger",
+        "name": "ginger"
+      },
+      {
+        "original": "2 tablespoons chopped fresh cilantro",
+        "name": "fresh cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by peeling and dicing the potatoes into small, bite-sized pieces. Rinse the diced potatoes in cold water to remove any excess starch."
+          },
+          {
+            "number": 2,
+            "step": "Heat 1 tablespoon of vegetable oil in a large pan over medium heat. Add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 3,
+            "step": "Add the chopped onion to the pan and sauté until it is translucent and starting to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic and grated ginger to the pan and sauté for another minute, stirring constantly to prevent burning."
+          },
+          {
+            "number": 5,
+            "step": "Add the diced potatoes to the pan and stir to combine with the onion mixture. Cook for about 5 minutes, stirring occasionally, until the potatoes start to brown."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped tomatoes to the pan and stir to combine. Cook for about 5 minutes, stirring occasionally, until the tomatoes start to break down and the mixture is well combined."
+          },
+          {
+            "number": 7,
+            "step": "Add the turmeric powder, coriander powder, red chili powder, garam masala powder, and salt to the pan. Stir well to combine and cook for 1-2 minutes, until the spices are fragrant."
+          },
+          {
+            "number": 8,
+            "step": "Add the peeled and cut turmeric root to the pan and stir to combine with the potato and spice mixture. Cook for about 10-12 minutes, stirring occasionally, until the turmeric root is tender and well coated with the spice mixture."
+          },
+          {
+            "number": 9,
+            "step": "Add 1/2 cup of water to the pan and bring the mixture to a simmer. Reduce the heat to low and let it cook for another 5-7 minutes, stirring occasionally, until the sauce has thickened and the potatoes and turmeric root are fully cooked."
+          },
+          {
+            "number": 10,
+            "step": "Stir in the chopped fresh cilantro and cook for an additional minute, until the cilantro is wilted."
+          },
+          {
+            "number": 11,
+            "step": "Remove the pan from the heat and let the Haldi Ki Sabji cool slightly before serving."
+          },
+          {
+            "number": 12,
+            "step": "Serve the Haldi Ki Sabji hot, garnished with additional chopped cilantro if desired."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101769178-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782101769178-2": {
+    "title": "Haldi Ki Sabji Recipe 3",
+    "readyInMinutes": 50,
+    "servings": 4,
+    "image": "/api/images/haldi-ki-sabji-3.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 large turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 large tomatoes",
+        "name": "tomatoes"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "1/2 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons vegetable oil",
+        "name": "vegetable oil"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 inch ginger",
+        "name": "ginger"
+      },
+      {
+        "original": "2 tablespoons chopped fresh cilantro",
+        "name": "fresh cilantro"
+      },
+      {
+        "original": "1/4 cup plain yogurt",
+        "name": "plain yogurt"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by peeling and cutting the turmeric roots into small, bite-sized pieces. Rinse the cut turmeric roots in cold water to remove any excess dirt or debris."
+          },
+          {
+            "number": 2,
+            "step": "Heat 1 tablespoon of vegetable oil in a large pan over medium heat. Add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 3,
+            "step": "Add the chopped onion to the pan and sauté until it is translucent and starting to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic and grated ginger to the pan and sauté for another minute, stirring constantly to prevent burning."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped tomatoes to the pan and stir to combine. Cook for about 5 minutes, stirring occasionally, until the tomatoes start to break down and the mixture is well combined."
+          },
+          {
+            "number": 6,
+            "step": "Add the turmeric powder, coriander powder, red chili powder, garam masala powder, and salt to the pan. Stir well to combine and cook for 1-2 minutes, until the spices are fragrant."
+          },
+          {
+            "number": 7,
+            "step": "Add the cut turmeric roots to the pan and stir to combine with the spice mixture. Cook for about 10-12 minutes, stirring occasionally, until the turmeric roots are tender and well coated with the spice mixture."
+          },
+          {
+            "number": 8,
+            "step": "Add 1/2 cup of water to the pan and bring the mixture to a simmer. Reduce the heat to low and let it cook for another 5-7 minutes, stirring occasionally, until the sauce has thickened and the turmeric roots are fully cooked."
+          },
+          {
+            "number": 9,
+            "step": "Stir in the plain yogurt and cook for an additional 2-3 minutes, until the yogurt is well combined with the spice mixture and the sauce has thickened."
+          },
+          {
+            "number": 10,
+            "step": "Stir in the chopped fresh cilantro and cook for an additional minute, until the cilantro is wilted."
+          },
+          {
+            "number": 11,
+            "step": "Remove the pan from the heat and let the Haldi Ki Sabji cool slightly before serving."
+          },
+          {
+            "number": 12,
+            "step": "Serve the Haldi Ki Sabji hot, garnished with additional chopped cilantro if desired."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782101769178-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102084392-0": {
+    "title": "Haldi Ki Sabji Recipe 1",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "image": "/api/images/haldi_ki_sabji.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "1 cup mustard oil",
+        "name": "mustard oil"
+      },
+      {
+        "original": "1 small onion, finely chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic, minced",
+        "name": "garlic"
+      },
+      {
+        "original": "1 small ginger, grated",
+        "name": "ginger"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt, to taste",
+        "name": "salt"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "Fresh cilantro, for garnish",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots thoroughly in a fine mesh sieve under cold running water to remove any dirt or debris. Gently scrub the roots with a vegetable brush to remove any stubborn dirt."
+          },
+          {
+            "number": 2,
+            "step": "Pat the turmeric roots dry with a clean kitchen towel or paper towels to remove excess moisture. This step is crucial to prevent the turmeric from becoming too wet and mushy during cooking."
+          },
+          {
+            "number": 3,
+            "step": "Heat the mustard oil in a large pan over medium heat. Add the chopped onion and sauté until it turns translucent and starts to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic and grated ginger to the pan and sauté for another minute, stirring constantly to prevent burning. The mixture should be fragrant and slightly browned."
+          },
+          {
+            "number": 5,
+            "step": "Add the ground cumin, ground coriander, turmeric powder, and red chili powder to the pan, stirring well to combine. Cook for 1-2 minutes, until the spices are fragrant and slightly darkened."
+          },
+          {
+            "number": 6,
+            "step": "Add the turmeric roots to the pan, stirring to coat them evenly with the spice mixture. Cook for 5-7 minutes, stirring occasionally, until the turmeric roots start to soften and turn slightly brown."
+          },
+          {
+            "number": 7,
+            "step": "Add the salt and water to the pan, stirring to combine. Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for 15-20 minutes, or until the turmeric roots are tender and the liquid has thickened into a rich sauce."
+          },
+          {
+            "number": 8,
+            "step": "Remove the pan from the heat and let it cool slightly. Use a slotted spoon to remove the turmeric roots from the sauce and transfer them to a serving dish."
+          },
+          {
+            "number": 9,
+            "step": "Garnish the turmeric roots with fresh cilantro and serve with the sauce spooned over the top. You can also serve the dish with steamed rice, roti, or naan bread."
+          },
+          {
+            "number": 10,
+            "step": "To store any leftovers, let the dish cool completely, then transfer it to an airtight container and refrigerate for up to 3 days. Reheat the dish gently over low heat, adding a little water if the sauce has thickened too much."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102084392-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102084392-1": {
+    "title": "Haldi Ki Sabji Recipe 2",
+    "readyInMinutes": 50,
+    "servings": 4,
+    "image": "/api/images/haldi_ki_sabji2.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 cup turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "2 cups mixed vegetables (carrots, potatoes, green beans)",
+        "name": "mixed vegetables"
+      },
+      {
+        "original": "2 tablespoons ghee or vegetable oil",
+        "name": "ghee or vegetable oil"
+      },
+      {
+        "original": "1 small onion, finely chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic, minced",
+        "name": "garlic"
+      },
+      {
+        "original": "1 small ginger, grated",
+        "name": "ginger"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt, to taste",
+        "name": "salt"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "Fresh cilantro, for garnish",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots and mixed vegetables thoroughly in a fine mesh sieve under cold running water to remove any dirt or debris. Gently scrub the turmeric roots with a vegetable brush to remove any stubborn dirt."
+          },
+          {
+            "number": 2,
+            "step": "Pat the turmeric roots and mixed vegetables dry with a clean kitchen towel or paper towels to remove excess moisture. This step is crucial to prevent the vegetables from becoming too wet and mushy during cooking."
+          },
+          {
+            "number": 3,
+            "step": "Heat the ghee or vegetable oil in a large pan over medium heat. Add the chopped onion and sauté until it turns translucent and starts to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic and grated ginger to the pan and sauté for another minute, stirring constantly to prevent burning. The mixture should be fragrant and slightly browned."
+          },
+          {
+            "number": 5,
+            "step": "Add the ground cumin, ground coriander, turmeric powder, and red chili powder to the pan, stirring well to combine. Cook for 1-2 minutes, until the spices are fragrant and slightly darkened."
+          },
+          {
+            "number": 6,
+            "step": "Add the turmeric roots and mixed vegetables to the pan, stirring to coat them evenly with the spice mixture. Cook for 5-7 minutes, stirring occasionally, until the vegetables start to soften and turn slightly brown."
+          },
+          {
+            "number": 7,
+            "step": "Add the salt and water to the pan, stirring to combine. Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for 20-25 minutes, or until the turmeric roots and mixed vegetables are tender and the liquid has thickened into a rich sauce."
+          },
+          {
+            "number": 8,
+            "step": "Remove the pan from the heat and let it cool slightly. Use a slotted spoon to remove the turmeric roots and mixed vegetables from the sauce and transfer them to a serving dish."
+          },
+          {
+            "number": 9,
+            "step": "Garnish the dish with fresh cilantro and serve with the sauce spooned over the top. You can also serve the dish with steamed rice, roti, or naan bread."
+          },
+          {
+            "number": 10,
+            "step": "To store any leftovers, let the dish cool completely, then transfer it to an airtight container and refrigerate for up to 3 days. Reheat the dish gently over low heat, adding a little water if the sauce has thickened too much."
+          },
+          {
+            "number": 11,
+            "step": "You can also freeze the dish for up to 2 months. Simply transfer the cooled dish to a freezer-safe container or freezer bag, label, and date. Reheat the dish gently over low heat, adding a little water if the sauce has thickened too much."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102084392-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102084392-2": {
+    "title": "Haldi Ki Sabji Recipe 3",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "image": "/api/images/haldi_ki_sabji3.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 cup turmeric roots",
+        "name": "turmeric roots"
+      },
+      {
+        "original": "1 cup yogurt",
+        "name": "yogurt"
+      },
+      {
+        "original": "1 tablespoon ghee or vegetable oil",
+        "name": "ghee or vegetable oil"
+      },
+      {
+        "original": "1 small onion, finely chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic, minced",
+        "name": "garlic"
+      },
+      {
+        "original": "1 small ginger, grated",
+        "name": "ginger"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt, to taste",
+        "name": "salt"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "Fresh cilantro, for garnish",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots thoroughly in a fine mesh sieve under cold running water to remove any dirt or debris. Gently scrub the turmeric roots with a vegetable brush to remove any stubborn dirt."
+          },
+          {
+            "number": 2,
+            "step": "Pat the turmeric roots dry with a clean kitchen towel or paper towels to remove excess moisture. This step is crucial to prevent the turmeric from becoming too wet and mushy during cooking."
+          },
+          {
+            "number": 3,
+            "step": "Heat the ghee or vegetable oil in a large pan over medium heat. Add the chopped onion and sauté until it turns translucent and starts to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic and grated ginger to the pan and sauté for another minute, stirring constantly to prevent burning. The mixture should be fragrant and slightly browned."
+          },
+          {
+            "number": 5,
+            "step": "Add the ground cumin, ground coriander, turmeric powder, and red chili powder to the pan, stirring well to combine. Cook for 1-2 minutes, until the spices are fragrant and slightly darkened."
+          },
+          {
+            "number": 6,
+            "step": "Add the turmeric roots to the pan, stirring to coat them evenly with the spice mixture. Cook for 5-7 minutes, stirring occasionally, until the turmeric roots start to soften and turn slightly brown."
+          },
+          {
+            "number": 7,
+            "step": "Add the yogurt to the pan, stirring to combine. Cook for 2-3 minutes, until the yogurt has thickened and the mixture has come to a simmer."
+          },
+          {
+            "number": 8,
+            "step": "Add the salt and water to the pan, stirring to combine. Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for 15-20 minutes, or until the turmeric roots are tender and the liquid has thickened into a rich sauce."
+          },
+          {
+            "number": 9,
+            "step": "Remove the pan from the heat and let it cool slightly. Use a slotted spoon to remove the turmeric roots from the sauce and transfer them to a serving dish."
+          },
+          {
+            "number": 10,
+            "step": "Garnish the dish with fresh cilantro and serve with the sauce spooned over the top. You can also serve the dish with steamed rice, roti, or naan bread."
+          },
+          {
+            "number": 11,
+            "step": "To store any leftovers, let the dish cool completely, then transfer it to an airtight container and refrigerate for up to 3 days. Reheat the dish gently over low heat, adding a little water if the sauce has thickened too much."
+          },
+          {
+            "number": 12,
+            "step": "You can also freeze the dish for up to 2 months. Simply transfer the cooled dish to a freezer-safe container or freezer bag, label, and date. Reheat the dish gently over low heat, adding a little water if the sauce has thickened too much."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102084392-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102113460-0": {
+    "title": "Haldi Ki Sabji Recipe 1",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "image": "/api/images/haldi_sabji.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups turmeric roots",
+        "name": "turmeric"
+      },
+      {
+        "original": "1 cup mustard oil",
+        "name": "mustard oil"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 large tomatoes",
+        "name": "tomatoes"
+      },
+      {
+        "original": "1 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt to taste",
+        "name": "salt"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots thoroughly in a fine mesh sieve under cold running water to remove any dirt or debris. Gently scrub the roots with a vegetable brush to remove any stubborn dirt."
+          },
+          {
+            "number": 2,
+            "step": "Pat the turmeric roots dry with a clean kitchen towel or paper towels to remove excess moisture. This step is crucial to prevent the turmeric from becoming mushy during cooking."
+          },
+          {
+            "number": 3,
+            "step": "Heat the mustard oil in a large pan over medium heat. Once the oil is hot, add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 4,
+            "step": "Add the chopped onion to the pan and sauté until it becomes translucent and starts to brown. Stir occasionally to prevent the onion from burning."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped tomatoes to the pan and continue to sauté for another 5 minutes, stirring occasionally, until the tomatoes start to break down and the mixture becomes homogeneous."
+          },
+          {
+            "number": 6,
+            "step": "Add the coriander powder, turmeric powder, and red chili powder to the pan and stir well to combine. Cook for 1 minute, allowing the spices to bloom and become fragrant."
+          },
+          {
+            "number": 7,
+            "step": "Add the turmeric roots to the pan, stirring gently to combine with the spice mixture. Cook for 5 minutes, stirring occasionally, until the turmeric roots start to soften."
+          },
+          {
+            "number": 8,
+            "step": "Season the sabji with salt to taste, then reduce the heat to low and simmer, covered, for 10-15 minutes, or until the turmeric roots are tender and the flavors have melded together."
+          },
+          {
+            "number": 9,
+            "step": "Remove the pan from the heat and let the sabji cool slightly. Serve hot, garnished with fresh cilantro leaves or a dollop of raita, if desired."
+          },
+          {
+            "number": 10,
+            "step": "To store any leftovers, allow the sabji to cool completely, then transfer it to an airtight container and refrigerate for up to 3 days. Reheat gently before serving."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102113460-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102113460-1": {
+    "title": "Haldi Ki Sabji Recipe 2",
+    "readyInMinutes": 40,
+    "servings": 6,
+    "image": "/api/images/haldi_sabji2.jpg",
+    "extendedIngredients": [
+      {
+        "original": "3 cups turmeric roots",
+        "name": "turmeric"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "1 large potato",
+        "name": "potato"
+      },
+      {
+        "original": "1 large carrot",
+        "name": "carrot"
+      },
+      {
+        "original": "1 large green chili",
+        "name": "green chili"
+      },
+      {
+        "original": "1 teaspoon grated ginger",
+        "name": "ginger"
+      },
+      {
+        "original": "1 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "Salt to taste",
+        "name": "salt"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by peeling and chopping the turmeric roots into small, bite-sized pieces. Rinse the chopped turmeric in a fine mesh sieve under cold running water to remove any dirt or debris."
+          },
+          {
+            "number": 2,
+            "step": "In a large pan, combine the chopped turmeric, water, and salt. Bring the mixture to a boil over high heat, then reduce the heat to medium-low and simmer, covered, for 10-12 minutes, or until the turmeric is partially cooked."
+          },
+          {
+            "number": 3,
+            "step": "While the turmeric is cooking, peel and chop the potato and carrot into small, bite-sized pieces. Rinse the chopped vegetables in a fine mesh sieve under cold running water to remove any dirt or debris."
+          },
+          {
+            "number": 4,
+            "step": "Add the chopped potato and carrot to the pan with the turmeric, stirring gently to combine. Continue to simmer, covered, for another 10-12 minutes, or until the vegetables are tender."
+          },
+          {
+            "number": 5,
+            "step": "Heat a small pan over medium heat and add the cumin seeds. Let the seeds sizzle for a few seconds until fragrant, then add the grated ginger and cook, stirring constantly, for 1 minute."
+          },
+          {
+            "number": 6,
+            "step": "Add the garam masala powder to the small pan and cook, stirring constantly, for 1 minute, allowing the spices to bloom and become fragrant."
+          },
+          {
+            "number": 7,
+            "step": "Add the spice mixture to the large pan with the turmeric and vegetables, stirring gently to combine. Simmer, covered, for 5 minutes, allowing the flavors to meld together."
+          },
+          {
+            "number": 8,
+            "step": "Chop the green chili into small pieces and add it to the pan, stirring gently to combine. Simmer, covered, for an additional 2-3 minutes, or until the sabji is heated through."
+          },
+          {
+            "number": 9,
+            "step": "Remove the pan from the heat and let the sabji cool slightly. Serve hot, garnished with fresh cilantro leaves or a dollop of raita, if desired."
+          },
+          {
+            "number": 10,
+            "step": "To store any leftovers, allow the sabji to cool completely, then transfer it to an airtight container and refrigerate for up to 3 days. Reheat gently before serving."
+          },
+          {
+            "number": 11,
+            "step": "To freeze the sabji, allow it to cool completely, then transfer it to an airtight container or freezer bag and store in the freezer for up to 2 months. Reheat gently before serving."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102113460-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102113460-2": {
+    "title": "Haldi Ki Sabji Recipe 3",
+    "readyInMinutes": 50,
+    "servings": 8,
+    "image": "/api/images/haldi_sabji3.jpg",
+    "extendedIngredients": [
+      {
+        "original": "4 cups turmeric roots",
+        "name": "turmeric"
+      },
+      {
+        "original": "2 cups coconut milk",
+        "name": "coconut milk"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 large garlic cloves",
+        "name": "garlic"
+      },
+      {
+        "original": "1 teaspoon grated ginger",
+        "name": "ginger"
+      },
+      {
+        "original": "1 teaspoon curry powder",
+        "name": "curry powder"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "Salt to taste",
+        "name": "salt"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots thoroughly in a fine mesh sieve under cold running water to remove any dirt or debris. Gently scrub the roots with a vegetable brush to remove any stubborn dirt."
+          },
+          {
+            "number": 2,
+            "step": "Pat the turmeric roots dry with a clean kitchen towel or paper towels to remove excess moisture. This step is crucial to prevent the turmeric from becoming mushy during cooking."
+          },
+          {
+            "number": 3,
+            "step": "Heat a large pan over medium heat and add the chopped onion. Sauté the onion until it becomes translucent and starts to brown, stirring occasionally to prevent the onion from burning."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic and grated ginger to the pan and cook, stirring constantly, for 1 minute, allowing the aromatics to bloom and become fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the curry powder, turmeric powder, and red chili powder to the pan, stirring well to combine. Cook for 1 minute, allowing the spices to bloom and become fragrant."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped turmeric roots to the pan, stirring gently to combine with the spice mixture. Cook for 5 minutes, stirring occasionally, until the turmeric roots start to soften."
+          },
+          {
+            "number": 7,
+            "step": "Pour in the coconut milk, stirring gently to combine with the turmeric and spice mixture. Bring the mixture to a simmer, then reduce the heat to low and cook, covered, for 15-20 minutes, or until the turmeric roots are tender and the sauce has thickened."
+          },
+          {
+            "number": 8,
+            "step": "Season the sabji with salt to taste, then remove the pan from the heat and let it cool slightly. Serve hot, garnished with fresh cilantro leaves or a dollop of raita, if desired."
+          },
+          {
+            "number": 9,
+            "step": "To store any leftovers, allow the sabji to cool completely, then transfer it to an airtight container and refrigerate for up to 3 days. Reheat gently before serving."
+          },
+          {
+            "number": 10,
+            "step": "To freeze the sabji, allow it to cool completely, then transfer it to an airtight container or freezer bag and store in the freezer for up to 2 months. Reheat gently before serving."
+          },
+          {
+            "number": 11,
+            "step": "To reheat the sabji, simply heat it in a pan over low heat, stirring occasionally, until the sabji is heated through and the sauce has thickened to your liking."
+          },
+          {
+            "number": 12,
+            "step": "Serve the sabji hot, garnished with fresh cilantro leaves or a dollop of raita, and enjoy with your favorite Indian bread or rice."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102113460-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102326153-0": {
+    "title": "Haldi Ki Sabji with Potatoes",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "image": "/api/images/haldi_sabji.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups turmeric roots",
+        "name": "turmeric"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "2 large potatoes",
+        "name": "potato"
+      },
+      {
+        "original": "1 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "1/2 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons mustard oil",
+        "name": "mustard oil"
+      },
+      {
+        "original": "2 tablespoons chopped fresh cilantro",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots thoroughly in cold water to remove any dirt or debris. Pat them dry with a clean cloth to remove excess moisture."
+          },
+          {
+            "number": 2,
+            "step": "Peel the turmeric roots using a vegetable peeler, making sure to remove any tough or fibrous skin. Chop the peeled turmeric roots into small, bite-sized pieces."
+          },
+          {
+            "number": 3,
+            "step": "Next, peel the potatoes and chop them into small, bite-sized pieces. Rinse the chopped potatoes in cold water to remove excess starch, then drain well and set aside."
+          },
+          {
+            "number": 4,
+            "step": "Heat 1 tablespoon of mustard oil in a large pan over medium heat. Add the cumin seeds and let them sizzle for a few seconds, until fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped onion to the pan and sauté until it turns translucent and starts to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped turmeric roots to the pan and sauté for another 5 minutes, stirring occasionally, until they start to soften and turn slightly brown."
+          },
+          {
+            "number": 7,
+            "step": "Add the chopped potatoes to the pan, along with the coriander powder, turmeric powder, red chili powder, garam masala powder, and salt. Stir well to combine."
+          },
+          {
+            "number": 8,
+            "step": "Add 1/2 cup of water to the pan and stir well to combine. Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for 15-20 minutes, or until the potatoes and turmeric roots are tender."
+          },
+          {
+            "number": 9,
+            "step": "Use a spoon to gently mash some of the potatoes and turmeric roots against the side of the pan, to create a slightly thickened sauce."
+          },
+          {
+            "number": 10,
+            "step": "Stir in the chopped cilantro and cook for an additional 1-2 minutes, until the flavors have melded together."
+          },
+          {
+            "number": 11,
+            "step": "Remove the pan from the heat and let the sabji cool slightly. Serve hot, garnished with additional cilantro if desired."
+          },
+          {
+            "number": 12,
+            "step": "Serve the Haldi Ki Sabji with potatoes alongside rice, roti, or naan bread, and enjoy!"
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102326153-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102326153-1": {
+    "title": "Haldi Ki Sabji with Cauliflower",
+    "readyInMinutes": 35,
+    "servings": 4,
+    "image": "/api/images/haldi_sabji_cauliflower.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups turmeric roots",
+        "name": "turmeric"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "1 large cauliflower",
+        "name": "cauliflower"
+      },
+      {
+        "original": "1 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "1/2 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons mustard oil",
+        "name": "mustard oil"
+      },
+      {
+        "original": "2 tablespoons chopped fresh cilantro",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots thoroughly in cold water to remove any dirt or debris. Pat them dry with a clean cloth to remove excess moisture."
+          },
+          {
+            "number": 2,
+            "step": "Peel the turmeric roots using a vegetable peeler, making sure to remove any tough or fibrous skin. Chop the peeled turmeric roots into small, bite-sized pieces."
+          },
+          {
+            "number": 3,
+            "step": "Rinse the cauliflower florets in cold water, then drain well and set aside."
+          },
+          {
+            "number": 4,
+            "step": "Heat 1 tablespoon of mustard oil in a large pan over medium heat. Add the cumin seeds and let them sizzle for a few seconds, until fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped onion to the pan and sauté until it turns translucent and starts to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped turmeric roots to the pan and sauté for another 5 minutes, stirring occasionally, until they start to soften and turn slightly brown."
+          },
+          {
+            "number": 7,
+            "step": "Add the cauliflower florets to the pan, along with the coriander powder, turmeric powder, red chili powder, garam masala powder, and salt. Stir well to combine."
+          },
+          {
+            "number": 8,
+            "step": "Add 1/2 cup of water to the pan and stir well to combine. Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for 10-15 minutes, or until the cauliflower is tender."
+          },
+          {
+            "number": 9,
+            "step": "Stir in the chopped cilantro and cook for an additional 1-2 minutes, until the flavors have melded together."
+          },
+          {
+            "number": 10,
+            "step": "Remove the pan from the heat and let the sabji cool slightly. Serve hot, garnished with additional cilantro if desired."
+          },
+          {
+            "number": 11,
+            "step": "Serve the Haldi Ki Sabji with cauliflower alongside rice, roti, or naan bread, and enjoy!"
+          },
+          {
+            "number": 12,
+            "step": "Garnish with lemon wedges, if desired, to add a burst of citrus flavor to the dish."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102326153-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102326153-2": {
+    "title": "Haldi Ki Sabji with Green Beans",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "image": "/api/images/haldi_sabji_green_beans.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups turmeric roots",
+        "name": "turmeric"
+      },
+      {
+        "original": "1 large onion",
+        "name": "onion"
+      },
+      {
+        "original": "1 cup green beans",
+        "name": "green beans"
+      },
+      {
+        "original": "1 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "1/2 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons mustard oil",
+        "name": "mustard oil"
+      },
+      {
+        "original": "2 tablespoons chopped fresh cilantro",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by washing the turmeric roots thoroughly in cold water to remove any dirt or debris. Pat them dry with a clean cloth to remove excess moisture."
+          },
+          {
+            "number": 2,
+            "step": "Peel the turmeric roots using a vegetable peeler, making sure to remove any tough or fibrous skin. Chop the peeled turmeric roots into small, bite-sized pieces."
+          },
+          {
+            "number": 3,
+            "step": "Trim the green beans and cut them into 1-inch pieces. Rinse the green beans in cold water, then drain well and set aside."
+          },
+          {
+            "number": 4,
+            "step": "Heat 1 tablespoon of mustard oil in a large pan over medium heat. Add the cumin seeds and let them sizzle for a few seconds, until fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped onion to the pan and sauté until it turns translucent and starts to brown, stirring occasionally. This should take about 5-7 minutes."
+          },
+          {
+            "number": 6,
+            "step": "Add the chopped turmeric roots to the pan and sauté for another 5 minutes, stirring occasionally, until they start to soften and turn slightly brown."
+          },
+          {
+            "number": 7,
+            "step": "Add the green beans to the pan, along with the coriander powder, turmeric powder, red chili powder, garam masala powder, and salt. Stir well to combine."
+          },
+          {
+            "number": 8,
+            "step": "Add 1/4 cup of water to the pan and stir well to combine. Bring the mixture to a boil, then reduce the heat to low and simmer, covered, for 8-10 minutes, or until the green beans are tender."
+          },
+          {
+            "number": 9,
+            "step": "Stir in the chopped cilantro and cook for an additional 1-2 minutes, until the flavors have melded together."
+          },
+          {
+            "number": 10,
+            "step": "Remove the pan from the heat and let the sabji cool slightly. Serve hot, garnished with additional cilantro if desired."
+          },
+          {
+            "number": 11,
+            "step": "Serve the Haldi Ki Sabji with green beans alongside rice, roti, or naan bread, and enjoy!"
+          },
+          {
+            "number": 12,
+            "step": "Garnish with lemon wedges, if desired, to add a burst of citrus flavor to the dish."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102326153-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102515447-0": {
+    "title": "Lasan Ki Khir Recipe 1",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "healthScore": 80,
+    "image": "/api/images/lasan-ki-khir.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups milk",
+        "name": "milk"
+      },
+      {
+        "original": "1/2 cup garlic paste",
+        "name": "garlic paste"
+      },
+      {
+        "original": "1/4 cup ghee",
+        "name": "ghee"
+      },
+      {
+        "original": "1/2 teaspoon cardamom powder",
+        "name": "cardamom powder"
+      },
+      {
+        "original": "1/4 teaspoon saffron threads",
+        "name": "saffron threads"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/2 cup chopped nuts",
+        "name": "chopped nuts"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by rinsing 1/2 cup of rice in a fine mesh sieve until the water runs clear, then soak it in 1 cup of water for at least 30 minutes."
+          },
+          {
+            "number": 2,
+            "step": "Drain and discard the water from the soaked rice, then transfer the rice to a blender or food processor."
+          },
+          {
+            "number": 3,
+            "step": "Add 1/2 cup of garlic paste to the blender with the rice and blend until well combined and the rice is broken down into a coarse paste."
+          },
+          {
+            "number": 4,
+            "step": "In a large saucepan, heat 1/4 cup of ghee over medium heat, then add the rice and garlic paste mixture and cook, stirring constantly, for 5-7 minutes or until the mixture is lightly toasted and fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add 2 cups of milk to the saucepan and bring to a boil, then reduce the heat to low and simmer, stirring occasionally, for 20-25 minutes or until the mixture thickens and the rice is cooked."
+          },
+          {
+            "number": 6,
+            "step": "Add 1/2 teaspoon of cardamom powder, 1/4 teaspoon of saffron threads, 1/2 cup of sugar, and 1/4 teaspoon of salt to the saucepan and stir well to combine."
+          },
+          {
+            "number": 7,
+            "step": "Continue to simmer the mixture for an additional 5-7 minutes or until it reaches the desired consistency."
+          },
+          {
+            "number": 8,
+            "step": "Remove the saucepan from the heat and stir in 1/2 cup of chopped nuts."
+          },
+          {
+            "number": 9,
+            "step": "Let the mixture cool to room temperature, then cover and refrigerate for at least 2 hours or overnight."
+          },
+          {
+            "number": 10,
+            "step": "Just before serving, give the mixture a good stir and adjust the sweetness and spice level to taste."
+          },
+          {
+            "number": 11,
+            "step": "Serve the lasan ki khir chilled, garnished with additional chopped nuts and a sprinkle of cardamom powder if desired."
+          },
+          {
+            "number": 12,
+            "step": "Enjoy your delicious and creamy lasan ki khir!"
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102515447-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102515447-1": {
+    "title": "Lasan Ki Khir Recipe 2",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "healthScore": 85,
+    "image": "/api/images/lasan-ki-khir-2.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups milk",
+        "name": "milk"
+      },
+      {
+        "original": "1/2 cup garlic paste",
+        "name": "garlic paste"
+      },
+      {
+        "original": "1/4 cup ghee",
+        "name": "ghee"
+      },
+      {
+        "original": "1/2 teaspoon cardamom powder",
+        "name": "cardamom powder"
+      },
+      {
+        "original": "1/4 teaspoon saffron threads",
+        "name": "saffron threads"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/2 cup chopped nuts",
+        "name": "chopped nuts"
+      },
+      {
+        "original": "1/4 cup dried fruit",
+        "name": "dried fruit"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Begin by rinsing 1/2 cup of rice in a fine mesh sieve until the water runs clear, then soak it in 1 cup of water for at least 30 minutes."
+          },
+          {
+            "number": 2,
+            "step": "Drain and discard the water from the soaked rice, then transfer the rice to a blender or food processor."
+          },
+          {
+            "number": 3,
+            "step": "Add 1/2 cup of garlic paste to the blender with the rice and blend until well combined and the rice is broken down into a coarse paste."
+          },
+          {
+            "number": 4,
+            "step": "In a large saucepan, heat 1/4 cup of ghee over medium heat, then add the rice and garlic paste mixture and cook, stirring constantly, for 5-7 minutes or until the mixture is lightly toasted and fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add 2 cups of milk to the saucepan and bring to a boil, then reduce the heat to low and simmer, stirring occasionally, for 20-25 minutes or until the mixture thickens and the rice is cooked."
+          },
+          {
+            "number": 6,
+            "step": "Add 1/2 teaspoon of cardamom powder, 1/4 teaspoon of saffron threads, 1/2 cup of sugar, and 1/4 teaspoon of salt to the saucepan and stir well to combine."
+          },
+          {
+            "number": 7,
+            "step": "Continue to simmer the mixture for an additional 5-7 minutes or until it reaches the desired consistency."
+          },
+          {
+            "number": 8,
+            "step": "Remove the saucepan from the heat and stir in 1/2 cup of chopped nuts and 1/4 cup of dried fruit."
+          },
+          {
+            "number": 9,
+            "step": "Let the mixture cool to room temperature, then cover and refrigerate for at least 2 hours or overnight."
+          },
+          {
+            "number": 10,
+            "step": "Just before serving, give the mixture a good stir and adjust the sweetness and spice level to taste."
+          },
+          {
+            "number": 11,
+            "step": "Serve the lasan ki khir chilled, garnished with additional chopped nuts and a sprinkle of cardamom powder if desired."
+          },
+          {
+            "number": 12,
+            "step": "Enjoy your delicious and creamy lasan ki khir!"
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102515447-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102515447-2": {
+    "title": "Lasan Ki Khir Recipe 3",
+    "readyInMinutes": 50,
+    "servings": 4,
+    "healthScore": 90,
+    "image": "/api/images/lasan-ki-khir-3.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups milk",
+        "name": "milk"
+      },
+      {
+        "original": "1/2 cup garlic paste",
+        "name": "garlic paste"
+      },
+      {
+        "original": "1/4 cup ghee",
+        "name": "ghee"
+      },
+      {
+        "original": "1/2 teaspoon cardamom powder",
+        "name": "cardamom powder"
+      },
+      {
+        "original": "1/4 teaspoon saffron threads",
+        "name": "saffron threads"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/2 cup chopped nuts",
+        "name": "chopped nuts"
+      },
+      {
+        "original": "1/4 cup dried fruit",
+        "name": "dried fruit"
+      },
+      {
+        "original": "1/4 cup coconut flakes",
+        "name": "coconut flakes"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by rinsing 1/2 cup of rice in a fine mesh sieve until the water runs clear, then soak it in 1 cup of water for at least 30 minutes."
+          },
+          {
+            "number": 2,
+            "step": "Drain and discard the water from the soaked rice, then transfer the rice to a blender or food processor."
+          },
+          {
+            "number": 3,
+            "step": "Add 1/2 cup of garlic paste to the blender with the rice and blend until well combined and the rice is broken down into a coarse paste."
+          },
+          {
+            "number": 4,
+            "step": "In a large saucepan, heat 1/4 cup of ghee over medium heat, then add the rice and garlic paste mixture and cook, stirring constantly, for 5-7 minutes or until the mixture is lightly toasted and fragrant."
+          },
+          {
+            "number": 5,
+            "step": "Add 2 cups of milk to the saucepan and bring to a boil, then reduce the heat to low and simmer, stirring occasionally, for 20-25 minutes or until the mixture thickens and the rice is cooked."
+          },
+          {
+            "number": 6,
+            "step": "Add 1/2 teaspoon of cardamom powder, 1/4 teaspoon of saffron threads, 1/2 cup of sugar, and 1/4 teaspoon of salt to the saucepan and stir well to combine."
+          },
+          {
+            "number": 7,
+            "step": "Continue to simmer the mixture for an additional 5-7 minutes or until it reaches the desired consistency."
+          },
+          {
+            "number": 8,
+            "step": "Remove the saucepan from the heat and stir in 1/2 cup of chopped nuts, 1/4 cup of dried fruit, and 1/4 cup of coconut flakes."
+          },
+          {
+            "number": 9,
+            "step": "Let the mixture cool to room temperature, then cover and refrigerate for at least 2 hours or overnight."
+          },
+          {
+            "number": 10,
+            "step": "Just before serving, give the mixture a good stir and adjust the sweetness and spice level to taste."
+          },
+          {
+            "number": 11,
+            "step": "Serve the lasan ki khir chilled, garnished with additional chopped nuts and a sprinkle of cardamom powder if desired."
+          },
+          {
+            "number": 12,
+            "step": "Enjoy your delicious and creamy lasan ki khir!"
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102515447-2",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102685347-0": {
+    "title": "Lasan Ki Khir (Garlic Pudding)",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "healthScore": 85,
+    "image": "/api/images/lasan-ki-khir.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups milk",
+        "name": "milk"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/4 cup grated garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1/4 teaspoon cardamom powder",
+        "name": "cardamom powder"
+      },
+      {
+        "original": "1/4 teaspoon saffron threads",
+        "name": "saffron threads"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons ghee or unsalted butter",
+        "name": "ghee or unsalted butter"
+      },
+      {
+        "original": "1 tablespoon chopped pistachios or almonds",
+        "name": "pistachios or almonds"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by rinsing the garlic cloves and peeling them. Use a grater or a microplane to grate the garlic into a fine paste. Be careful not to grate your fingers in the process."
+          },
+          {
+            "number": 2,
+            "step": "In a large saucepan, combine the milk, sugar, and grated garlic. Place the saucepan over medium heat and stir until the sugar has dissolved and the mixture is hot but not boiling."
+          },
+          {
+            "number": 3,
+            "step": "Reduce the heat to low and let the mixture simmer for about 10-12 minutes, or until it has reduced slightly and the flavors have melded together. Stir occasionally to prevent the milk from scorching."
+          },
+          {
+            "number": 4,
+            "step": "Add the cardamom powder, saffron threads, and salt to the mixture. Stir well to combine and continue to simmer for another 2-3 minutes."
+          },
+          {
+            "number": 5,
+            "step": "Remove the saucepan from the heat and let it cool slightly. Stir in the ghee or unsalted butter until it has melted and the mixture is smooth."
+          },
+          {
+            "number": 6,
+            "step": "Strain the mixture into a clean bowl to remove any solids and achieve a smooth texture. Discard the solids."
+          },
+          {
+            "number": 7,
+            "step": "Let the mixture cool to room temperature, then cover it with plastic wrap and refrigerate it for at least 2 hours or overnight."
+          },
+          {
+            "number": 8,
+            "step": "Just before serving, garnish the lasan ki khir with chopped pistachios or almonds. You can also add a sprinkle of cardamom powder or a few saffron threads for extra flavor and color."
+          },
+          {
+            "number": 9,
+            "step": "Serve the lasan ki khir chilled, either on its own or as a side dish to complement other Indian desserts or snacks."
+          },
+          {
+            "number": 10,
+            "step": "If desired, you can also serve the lasan ki khir in individual cups or bowls for a more elegant presentation."
+          },
+          {
+            "number": 11,
+            "step": "To add an extra layer of flavor, you can drizzle the lasan ki khir with a little honey or rose syrup just before serving."
+          },
+          {
+            "number": 12,
+            "step": "Finally, enjoy your delicious and unique lasan ki khir, and be sure to share it with friends and family to experience the joy of Indian cuisine!"
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102685347-0",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102685347-1": {
+    "title": "Creamy Lasan Ki Khir",
+    "readyInMinutes": 50,
+    "servings": 4,
+    "healthScore": 80,
+    "image": "/api/images/creamy-lasan-ki-khir.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups heavy cream",
+        "name": "heavy cream"
+      },
+      {
+        "original": "1 cup milk",
+        "name": "milk"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/4 cup grated garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1/4 teaspoon cardamom powder",
+        "name": "cardamom powder"
+      },
+      {
+        "original": "1/4 teaspoon saffron threads",
+        "name": "saffron threads"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons unsalted butter",
+        "name": "unsalted butter"
+      },
+      {
+        "original": "1 tablespoon chopped pistachios or almonds",
+        "name": "pistachios or almonds"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a large saucepan, combine the heavy cream, milk, sugar, and grated garlic. Place the saucepan over medium heat and stir until the sugar has dissolved and the mixture is hot but not boiling."
+          },
+          {
+            "number": 2,
+            "step": "Reduce the heat to low and let the mixture simmer for about 10-12 minutes, or until it has reduced slightly and the flavors have melded together. Stir occasionally to prevent the cream from scorching."
+          },
+          {
+            "number": 3,
+            "step": "Add the cardamom powder, saffron threads, and salt to the mixture. Stir well to combine and continue to simmer for another 2-3 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Remove the saucepan from the heat and let it cool slightly. Stir in the unsalted butter until it has melted and the mixture is smooth."
+          },
+          {
+            "number": 5,
+            "step": "Strain the mixture into a clean bowl to remove any solids and achieve a smooth texture. Discard the solids."
+          },
+          {
+            "number": 6,
+            "step": "Let the mixture cool to room temperature, then cover it with plastic wrap and refrigerate it for at least 2 hours or overnight."
+          },
+          {
+            "number": 7,
+            "step": "Just before serving, garnish the creamy lasan ki khir with chopped pistachios or almonds. You can also add a sprinkle of cardamom powder or a few saffron threads for extra flavor and color."
+          },
+          {
+            "number": 8,
+            "step": "Serve the creamy lasan ki khir chilled, either on its own or as a side dish to complement other Indian desserts or snacks."
+          },
+          {
+            "number": 9,
+            "step": "If desired, you can also serve the creamy lasan ki khir in individual cups or bowls for a more elegant presentation."
+          },
+          {
+            "number": 10,
+            "step": "To add an extra layer of flavor, you can drizzle the creamy lasan ki khir with a little honey or rose syrup just before serving."
+          },
+          {
+            "number": 11,
+            "step": "Finally, enjoy your rich and creamy lasan ki khir, and be sure to share it with friends and family to experience the joy of Indian cuisine!"
+          },
+          {
+            "number": 12,
+            "step": "You can also experiment with different flavors by adding a pinch of cinnamon or nutmeg to the mixture for a unique twist."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102685347-1",
+    "source": "ai-fallback"
+  },
+  "ai-search-1782102685347-2": {
+    "title": "Vegan Lasan Ki Khir",
+    "readyInMinutes": 40,
+    "servings": 4,
+    "healthScore": 90,
+    "image": "/api/images/vegan-lasan-ki-khir.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups non-dairy milk",
+        "name": "non-dairy milk"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/4 cup grated garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1/4 teaspoon cardamom powder",
+        "name": "cardamom powder"
+      },
+      {
+        "original": "1/4 teaspoon saffron threads",
+        "name": "saffron threads"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons vegan butter or ghee",
+        "name": "vegan butter or ghee"
+      },
+      {
+        "original": "1 tablespoon chopped pistachios or almonds",
+        "name": "pistachios or almonds"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a large saucepan, combine the non-dairy milk, sugar, and grated garlic. Place the saucepan over medium heat and stir until the sugar has dissolved and the mixture is hot but not boiling."
+          },
+          {
+            "number": 2,
+            "step": "Reduce the heat to low and let the mixture simmer for about 10-12 minutes, or until it has reduced slightly and the flavors have melded together. Stir occasionally to prevent the milk from scorching."
+          },
+          {
+            "number": 3,
+            "step": "Add the cardamom powder, saffron threads, and salt to the mixture. Stir well to combine and continue to simmer for another 2-3 minutes."
+          },
+          {
+            "number": 4,
+            "step": "Remove the saucepan from the heat and let it cool slightly. Stir in the vegan butter or ghee until it has melted and the mixture is smooth."
+          },
+          {
+            "number": 5,
+            "step": "Strain the mixture into a clean bowl to remove any solids and achieve a smooth texture. Discard the solids."
+          },
+          {
+            "number": 6,
+            "step": "Let the mixture cool to room temperature, then cover it with plastic wrap and refrigerate it for at least 2 hours or overnight."
+          },
+          {
+            "number": 7,
+            "step": "Just before serving, garnish the vegan lasan ki khir with chopped pistachios or almonds. You can also add a sprinkle of cardamom powder or a few saffron threads for extra flavor and color."
+          },
+          {
+            "number": 8,
+            "step": "Serve the vegan lasan ki khir chilled, either on its own or as a side dish to complement other Indian desserts or snacks."
+          },
+          {
+            "number": 9,
+            "step": "If desired, you can also serve the vegan lasan ki khir in individual cups or bowls for a more elegant presentation."
+          },
+          {
+            "number": 10,
+            "step": "To add an extra layer of flavor, you can drizzle the vegan lasan ki khir with a little maple syrup or coconut sugar just before serving."
+          },
+          {
+            "number": 11,
+            "step": "Finally, enjoy your delicious and cruelty-free vegan lasan ki khir, and be sure to share it with friends and family to experience the joy of Indian cuisine!"
+          },
+          {
+            "number": 12,
+            "step": "You can also experiment with different flavors by adding a pinch of cinnamon or nutmeg to the mixture for a unique twist."
+          }
+        ]
+      }
+    ],
+    "id": "ai-search-1782102685347-2",
+    "source": "ai-fallback"
+  },
+  "ai-heritage-1782102985685-58": {
+    "title": "Bhindi Masala of the Scindia Dynasty",
+    "state": "Madhya Pradesh",
+    "historicalContext": "This recipe originates from the Scindia dynasty, which ruled the Gwalior kingdom in Madhya Pradesh from the 18th to the 20th century. The dish was a staple in the royal kitchen and was often served to guests during special occasions. The Bhindi Masala recipe has been passed down through generations, with each cook adding their own twist to the original recipe. The Scindia dynasty was known for its rich culinary heritage, and this dish is a testament to the region's love for spices and intricate cooking techniques.",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "image": "/api/images/bhindi-masala.jpg",
+    "extendedIngredients": [
+      {
+        "original": "250 grams bhindi (okra)",
+        "name": "bhindi"
+      },
+      {
+        "original": "2 medium onions",
+        "name": "onion"
+      },
+      {
+        "original": "2 medium tomatoes",
+        "name": "tomato"
+      },
+      {
+        "original": "1 teaspoon cumin seeds",
+        "name": "cumin seeds"
+      },
+      {
+        "original": "1 teaspoon coriander powder",
+        "name": "coriander powder"
+      },
+      {
+        "original": "1/2 teaspoon turmeric powder",
+        "name": "turmeric powder"
+      },
+      {
+        "original": "1/2 teaspoon red chili powder",
+        "name": "red chili powder"
+      },
+      {
+        "original": "1/2 teaspoon garam masala powder",
+        "name": "garam masala powder"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "2 tablespoons mustard oil",
+        "name": "mustard oil"
+      },
+      {
+        "original": "2 tablespoons butter",
+        "name": "butter"
+      },
+      {
+        "original": "2 cloves garlic",
+        "name": "garlic"
+      },
+      {
+        "original": "1 inch ginger",
+        "name": "ginger"
+      },
+      {
+        "original": "2 tablespoons chopped fresh cilantro",
+        "name": "cilantro"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by rinsing the bhindi (okra) in a fine mesh sieve under cold running water to remove any dirt or debris. Pat the bhindi dry with a paper towel to remove excess moisture."
+          },
+          {
+            "number": 2,
+            "step": "Heat 1 tablespoon of mustard oil in a large pan over medium heat. Add the cumin seeds and let them sizzle for a few seconds until fragrant."
+          },
+          {
+            "number": 3,
+            "step": "Add the chopped onions to the pan and sauté until they turn translucent and start to brown. This should take about 5-7 minutes, stirring occasionally."
+          },
+          {
+            "number": 4,
+            "step": "Add the minced garlic and grated ginger to the pan and sauté for another minute, stirring constantly to prevent burning."
+          },
+          {
+            "number": 5,
+            "step": "Add the chopped tomatoes to the pan and cook until they start to break down and release their juices. This should take about 5 minutes, stirring occasionally."
+          },
+          {
+            "number": 6,
+            "step": "Add the coriander powder, turmeric powder, red chili powder, and garam masala powder to the pan and stir well to combine. Cook for 1-2 minutes, until the spices are fragrant."
+          },
+          {
+            "number": 7,
+            "step": "Add the bhindi (okra) to the pan and stir well to combine with the spice mixture. Cook for 5-7 minutes, stirring occasionally, until the bhindi starts to tenderize."
+          },
+          {
+            "number": 8,
+            "step": "Add the salt and 1 tablespoon of butter to the pan and stir well to combine. Cook for another 2-3 minutes, until the bhindi is fully tenderized and the sauce has thickened."
+          },
+          {
+            "number": 9,
+            "step": "Reduce the heat to low and simmer the Bhindi Masala for 5-7 minutes, stirring occasionally, until the sauce has reached the desired consistency."
+          },
+          {
+            "number": 10,
+            "step": "Stir in the chopped cilantro and cook for an additional minute."
+          },
+          {
+            "number": 11,
+            "step": "Remove the pan from the heat and let the Bhindi Masala cool slightly."
+          },
+          {
+            "number": 12,
+            "step": "Serve the Bhindi Masala hot, garnished with additional cilantro if desired. Traditionally, this dish is served with roti or naan bread, but it can also be served with rice or as a side dish."
+          }
+        ]
+      }
+    ],
+    "id": "ai-heritage-1782102985685-58",
+    "isCustom": true,
+    "source": "ai-heritage"
+  },
+  "ai-heritage-1782103000080-417": {
+    "title": "Shahjahanabad's Lost Recipe: Daulat Ki Chaat",
+    "state": "Delhi",
+    "historicalContext": "Daulat Ki Chaat is a historical dessert from the Mughal era, specifically from the reign of Shah Jahan in 17th-century Delhi. The name 'Daulat Ki Chaat' translates to 'wealth of foam', which refers to the light, airy, and creamy texture of the dish. It was a favorite among the royal family and nobles, often served as a dessert or snack in the royal courts. Over time, the recipe was lost, but it has been revived and adapted to modern tastes while maintaining its traditional essence.",
+    "readyInMinutes": 120,
+    "servings": 4,
+    "image": "/api/images/daulat-ki-chaat.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 cup milk",
+        "name": "milk"
+      },
+      {
+        "original": "1 cup cream",
+        "name": "cream"
+      },
+      {
+        "original": "1/2 cup sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/2 teaspoon cardamom powder",
+        "name": "cardamom powder"
+      },
+      {
+        "original": "1/4 teaspoon saffron threads",
+        "name": "saffron threads"
+      },
+      {
+        "original": "2 tablespoons rose water",
+        "name": "rose water"
+      },
+      {
+        "original": "2 tablespoons chopped pistachios",
+        "name": "pistachios"
+      },
+      {
+        "original": "2 tablespoons chopped almonds",
+        "name": "almonds"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by chilling the milk and cream in the refrigerator overnight. This is essential to create the light, airy texture of the Daulat Ki Chaat."
+          },
+          {
+            "number": 2,
+            "step": "In a large mixing bowl, combine the chilled milk, cream, sugar, and salt. Whisk the mixture gently until the sugar is fully dissolved, taking care not to over-aerate the mixture at this stage."
+          },
+          {
+            "number": 3,
+            "step": "Add the cardamom powder and saffron threads to the mixture. Whisk gently to distribute the spices evenly, ensuring that the saffron threads are fully incorporated and the mixture is infused with their flavor and color."
+          },
+          {
+            "number": 4,
+            "step": "Cover the bowl with plastic wrap and refrigerate the mixture for at least 2 hours or overnight to allow the flavors to meld together and the mixture to chill further."
+          },
+          {
+            "number": 5,
+            "step": "After the mixture has chilled, remove it from the refrigerator and use an electric mixer or whisk to beat the mixture until it becomes light and airy, almost double in volume. This step is crucial and may take about 10-15 minutes, depending on the speed of your mixer."
+          },
+          {
+            "number": 6,
+            "step": "Once the mixture has reached the desired consistency, add the rose water and mix gently to combine. Be cautious not to over-mix at this stage, as it can deflate the mixture."
+          },
+          {
+            "number": 7,
+            "step": "Spoon the mixture into individual serving cups or a large serving dish. If using individual cups, fill them about 3/4 of the way full to allow for the topping."
+          },
+          {
+            "number": 8,
+            "step": "Refrigerate the Daulat Ki Chaat for at least 30 minutes to allow it to set before serving. This step is important to ensure that the dessert holds its shape when served."
+          },
+          {
+            "number": 9,
+            "step": "Just before serving, sprinkle the chopped pistachios and almonds over the top of the Daulat Ki Chaat. You can also garnish with a few strands of saffron for added color and flavor."
+          },
+          {
+            "number": 10,
+            "step": "Serve the Daulat Ki Chaat chilled, straight from the refrigerator. It's best consumed within a day or two of preparation, as the texture and flavor may degrade over time."
+          },
+          {
+            "number": 11,
+            "step": "To enhance the dining experience, consider serving the Daulat Ki Chaat in a traditional setting, such as in small, ornate cups or bowls, and garnish with edible flowers or additional nuts for a pop of color and added texture."
+          },
+          {
+            "number": 12,
+            "step": "Finally, when serving the Daulat Ki Chaat, encourage guests to savor the dessert slowly, appreciating its unique texture and the blend of traditional Mughal flavors that have been preserved and passed down through generations."
+          }
+        ]
+      }
+    ],
+    "id": "ai-heritage-1782103000080-417",
+    "isCustom": true,
+    "source": "ai-heritage"
+  },
+  "ai-heritage-1782103009459-64": {
+    "title": "Mandua Ki Roti",
+    "state": "Uttarakhand",
+    "historicalContext": "Mandua Ki Roti is a traditional dish from the Indian state of Uttarakhand, with its origins dating back to the ancient times. The dish is made from mandua flour, which is rich in nutrients and has been a staple food in the region for centuries. The roti is typically served with other local delicacies such as dal, vegetables, and chutneys. The dish has been passed down through generations and is still a popular food item in many Uttarakhand households.",
+    "readyInMinutes": 60,
+    "servings": 4,
+    "image": "/api/images/mandua_ki_roti.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups mandua flour",
+        "name": "mandua flour"
+      },
+      {
+        "original": "1/2 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/4 teaspoon baking powder",
+        "name": "baking powder"
+      },
+      {
+        "original": "1/4 cup ghee or oil",
+        "name": "ghee or oil"
+      },
+      {
+        "original": "lukewarm water as needed",
+        "name": "water"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Start by sieving the mandua flour in a large bowl to remove any lumps and impurities. This will help to get a smooth texture of the roti."
+          },
+          {
+            "number": 2,
+            "step": "Add the salt, baking powder, and ghee or oil to the sieved mandua flour. Mix well with your hands or a spoon until the ingredients are well combined."
+          },
+          {
+            "number": 3,
+            "step": "Gradually add lukewarm water to the mixture and knead the dough for about 10-15 minutes. The dough should be soft and pliable, but not too sticky."
+          },
+          {
+            "number": 4,
+            "step": "Cover the dough with a damp cloth and let it rest for 30 minutes. This will help the gluten in the flour to relax, making the dough easier to roll out."
+          },
+          {
+            "number": 5,
+            "step": "Divide the dough into 4-6 equal portions, depending on how large you want your rotis to be. Shape each portion into a ball and flatten it slightly into a disk shape."
+          },
+          {
+            "number": 6,
+            "step": "Heat a non-stick skillet or tava over medium heat. Roll out each disk of dough into a thin circle, about 6-7 inches in diameter."
+          },
+          {
+            "number": 7,
+            "step": "Place the rolled out roti on the preheated skillet and cook for about 1-2 minutes, until the surface starts to dry and the edges start to curl."
+          },
+          {
+            "number": 8,
+            "step": "Flip the roti over and cook for another 1-2 minutes, until it is golden brown and crispy. Repeat the process with the remaining dough portions."
+          },
+          {
+            "number": 9,
+            "step": "Once the rotis are cooked, brush them with a little ghee or oil to give them a shiny appearance and to prevent them from drying out."
+          },
+          {
+            "number": 10,
+            "step": "Serve the Mandua Ki Roti hot with your choice of dal, vegetables, chutneys, or other accompaniments. Traditionally, it is served with a dollop of ghee and a sprinkle of salt."
+          },
+          {
+            "number": 11,
+            "step": "To store the rotis, wrap them in a clean cloth or aluminum foil and keep them in an airtight container. They can be stored for up to 2 days at room temperature."
+          },
+          {
+            "number": 12,
+            "step": "To reheat the rotis, simply wrap them in a damp cloth and microwave for 20-30 seconds, or until they are soft and warm. Alternatively, you can reheat them on a skillet or tava over low heat for a few minutes on each side."
+          }
+        ]
+      }
+    ],
+    "id": "ai-heritage-1782103009459-64",
+    "isCustom": true,
+    "source": "ai-heritage"
+  },
+  "ai-heritage-1782103203315-44": {
+    "title": "Dhaam",
+    "state": "Himachal Pradesh",
+    "historicalContext": "Dhaam is a traditional dish from the Kinnaur district of Himachal Pradesh, dating back to the 10th century. It was originally prepared as an offering to the local deity, and its recipe has been passed down through generations. The dish is a thick, flavorful stew made with a variety of lentils, grains, and vegetables.",
+    "readyInMinutes": 90,
+    "servings": 6,
+    "healthScore": 80,
+    "image": "/api/images/dhaam.jpg",
+    "extendedIngredients": [
+      {
+        "original": "1 cup split black gram (urad dal)",
+        "name": "split black gram"
+      },
+      {
+        "original": "1 cup split green gram (moong dal)",
+        "name": "split green gram"
+      },
+      {
+        "original": "1 cup barley",
+        "name": "barley"
+      },
+      {
+        "original": "2 cups water",
+        "name": "water"
+      },
+      {
+        "original": "1 tablespoon ghee",
+        "name": "ghee"
+      },
+      {
+        "original": "1 onion, chopped",
+        "name": "onion"
+      },
+      {
+        "original": "2 cloves garlic, minced",
+        "name": "garlic"
+      },
+      {
+        "original": "1 carrot, chopped",
+        "name": "carrot"
+      },
+      {
+        "original": "1 potato, chopped",
+        "name": "potato"
+      },
+      {
+        "original": "1 teaspoon ground cumin",
+        "name": "ground cumin"
+      },
+      {
+        "original": "1 teaspoon ground coriander",
+        "name": "ground coriander"
+      },
+      {
+        "original": "Salt, to taste",
+        "name": "salt"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "Rinse the split black gram, split green gram, and barley, and soak them in water for at least 4 hours or overnight. Drain and set aside."
+          },
+          {
+            "number": 2,
+            "step": "In a large pot, heat the ghee over medium heat. Add the chopped onion and sauté until it turns translucent, about 5 minutes."
+          },
+          {
+            "number": 3,
+            "step": "Add the minced garlic and sauté for another minute, until fragrant."
+          },
+          {
+            "number": 4,
+            "step": "Add the chopped carrot and potato, and sauté for 5 minutes, until they start to soften."
+          },
+          {
+            "number": 5,
+            "step": "Add the soaked and drained split black gram, split green gram, and barley to the pot. Stir well to combine with the vegetables and ghee."
+          },
+          {
+            "number": 6,
+            "step": "Add 2 cups of water to the pot, and bring to a boil. Reduce the heat to low and simmer, covered, for 30 minutes, or until the lentils and grains are cooked and the stew has thickened."
+          },
+          {
+            "number": 7,
+            "step": "Add the ground cumin, ground coriander, and salt to the pot, and stir well to combine."
+          },
+          {
+            "number": 8,
+            "step": "Continue to simmer the stew for another 10-15 minutes, stirring occasionally, until the flavors have melded together and the stew has reached the desired consistency."
+          },
+          {
+            "number": 9,
+            "step": "Taste and adjust the seasoning as needed."
+          },
+          {
+            "number": 10,
+            "step": "Serve the Dhaam hot, garnished with chopped fresh herbs, if desired."
+          }
+        ]
+      }
+    ],
+    "id": "ai-heritage-1782103203315-44",
+    "isCustom": true,
+    "source": "ai-heritage"
+  },
+  "ai-heritage-1782103203315-960": {
+    "title": "Babru",
+    "state": "Himachal Pradesh",
+    "historicalContext": "Babru is a traditional flatbread from the Shimla district of Himachal Pradesh, dating back to the 18th century. It was originally prepared as a snack for travelers and traders, and its recipe has been passed down through generations. The dish is a fermented flatbread made with a variety of flours, including wheat, maize, and barley.",
+    "readyInMinutes": 120,
+    "servings": 8,
+    "healthScore": 75,
+    "image": "/api/images/babru.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups wheat flour",
+        "name": "wheat flour"
+      },
+      {
+        "original": "1 cup maize flour",
+        "name": "maize flour"
+      },
+      {
+        "original": "1 cup barley flour",
+        "name": "barley flour"
+      },
+      {
+        "original": "1/2 cup yogurt",
+        "name": "yogurt"
+      },
+      {
+        "original": "1/2 cup water",
+        "name": "water"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/4 teaspoon sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/2 teaspoon active dry yeast",
+        "name": "active dry yeast"
+      },
+      {
+        "original": "Ghee or oil, for brushing",
+        "name": "ghee or oil"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a large mixing bowl, combine the wheat flour, maize flour, and barley flour."
+          },
+          {
+            "number": 2,
+            "step": "Add the yogurt, water, salt, sugar, and yeast to the bowl, and mix until a smooth dough forms."
+          },
+          {
+            "number": 3,
+            "step": "Knead the dough for 10-15 minutes, until it becomes smooth and elastic."
+          },
+          {
+            "number": 4,
+            "step": "Place the dough in a greased bowl, cover it with a damp cloth, and let it ferment in a warm place for 2-3 hours, or until it has doubled in size."
+          },
+          {
+            "number": 5,
+            "step": "Preheat a non-stick skillet or griddle over medium heat."
+          },
+          {
+            "number": 6,
+            "step": "Divide the dough into 8-10 equal portions, and shape each portion into a ball."
+          },
+          {
+            "number": 7,
+            "step": "Roll out each ball of dough into a thin circle, about 6-7 inches in diameter."
+          },
+          {
+            "number": 8,
+            "step": "Brush the dough with ghee or oil, and cook the Babru in the preheated skillet or griddle for 1-2 minutes on each side, until it is golden brown and crispy."
+          },
+          {
+            "number": 9,
+            "step": "Repeat the process with the remaining dough portions."
+          },
+          {
+            "number": 10,
+            "step": "Serve the Babru hot, with a dollop of yogurt or a sprinkle of sugar, if desired."
+          }
+        ]
+      }
+    ],
+    "id": "ai-heritage-1782103203315-960",
+    "isCustom": true,
+    "source": "ai-heritage"
+  },
+  "ai-heritage-1782103203315-13": {
+    "title": "Sidu",
+    "state": "Himachal Pradesh",
+    "historicalContext": "Sidu is a traditional steamed bread from the Mandi district of Himachal Pradesh, dating back to the 15th century. It was originally prepared as a snack for travelers and traders, and its recipe has been passed down through generations. The dish is a fermented bread made with a variety of flours, including wheat, maize, and barley.",
+    "readyInMinutes": 150,
+    "servings": 6,
+    "healthScore": 80,
+    "image": "/api/images/sidu.jpg",
+    "extendedIngredients": [
+      {
+        "original": "2 cups wheat flour",
+        "name": "wheat flour"
+      },
+      {
+        "original": "1 cup maize flour",
+        "name": "maize flour"
+      },
+      {
+        "original": "1 cup barley flour",
+        "name": "barley flour"
+      },
+      {
+        "original": "1/2 cup yogurt",
+        "name": "yogurt"
+      },
+      {
+        "original": "1/2 cup water",
+        "name": "water"
+      },
+      {
+        "original": "1/4 teaspoon salt",
+        "name": "salt"
+      },
+      {
+        "original": "1/4 teaspoon sugar",
+        "name": "sugar"
+      },
+      {
+        "original": "1/2 teaspoon active dry yeast",
+        "name": "active dry yeast"
+      },
+      {
+        "original": "Ghee or oil, for brushing",
+        "name": "ghee or oil"
+      }
+    ],
+    "analyzedInstructions": [
+      {
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a large mixing bowl, combine the wheat flour, maize flour, and barley flour."
+          },
+          {
+            "number": 2,
+            "step": "Add the yogurt, water, salt, sugar, and yeast to the bowl, and mix until a smooth dough forms."
+          },
+          {
+            "number": 3,
+            "step": "Knead the dough for 10-15 minutes, until it becomes smooth and elastic."
+          },
+          {
+            "number": 4,
+            "step": "Place the dough in a greased bowl, cover it with a damp cloth, and let it ferment in a warm place for 2-3 hours, or until it has doubled in size."
+          },
+          {
+            "number": 5,
+            "step": "Divide the dough into 6-8 equal portions, and shape each portion into a ball."
+          },
+          {
+            "number": 6,
+            "step": "Roll out each ball of dough into a thin circle, about 6-7 inches in diameter."
+          },
+          {
+            "number": 7,
+            "step": "Place the dough circles in a steamer basket, leaving some space between each circle."
+          },
+          {
+            "number": 8,
+            "step": "Steam the Sidu over boiling water for 15-20 minutes, or until it is cooked through and fluffy."
+          },
+          {
+            "number": 9,
+            "step": "Brush the Sidu with ghee or oil, and serve hot, with a dollop of yogurt or a sprinkle of sugar, if desired."
+          },
+          {
+            "number": 10,
+            "step": "Traditionally, Sidu is served with a variety of chutneys and pickles, such as mint chutney or mango pickle."
+          }
+        ]
+      }
+    ],
+    "id": "ai-heritage-1782103203315-13",
+    "isCustom": true,
+    "source": "ai-heritage"
   }
 }
